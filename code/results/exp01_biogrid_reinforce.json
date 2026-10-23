@@ -1,0 +1,1367 @@
+{
+  "config": {
+    "tasks": [
+      "content",
+      "tag12"
+    ],
+    "widths": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "height": 40,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "lr_grid": [
+      0.1,
+      0.3,
+      1.0
+    ],
+    "epochs": 15,
+    "patience": 4,
+    "batch": 32,
+    "n_votes": 9,
+    "data": {
+      "context": 3,
+      "n_train": 20000,
+      "n_val": 5000,
+      "n_test": 5000
+    }
+  },
+  "lr_choice": {
+    "content/W1": {
+      "lr": 1.0,
+      "val_by_lr": {
+        "0.1": 66.9,
+        "0.3": 67.1,
+        "1.0": 67.3
+      }
+    },
+    "content/W2": {
+      "lr": 1.0,
+      "val_by_lr": {
+        "0.1": 63.24,
+        "0.3": 66.78,
+        "1.0": 67.2
+      }
+    },
+    "content/W4": {
+      "lr": 0.1,
+      "val_by_lr": {
+        "0.1": 52.0,
+        "0.3": 51.8,
+        "1.0": 51.5
+      }
+    },
+    "content/W8": {
+      "lr": 0.1,
+      "val_by_lr": {
+        "0.1": 51.8,
+        "0.3": 51.6,
+        "1.0": 51.5
+      }
+    },
+    "tag12/W1": {
+      "lr": 1.0,
+      "val_by_lr": {
+        "0.1": 27.86,
+        "0.3": 36.62,
+        "1.0": 37.94
+      }
+    },
+    "tag12/W2": {
+      "lr": 0.1,
+      "val_by_lr": {
+        "0.1": 23.04,
+        "0.3": 23.0,
+        "1.0": 22.98
+      }
+    },
+    "tag12/W4": {
+      "lr": 0.3,
+      "val_by_lr": {
+        "0.1": 22.98,
+        "0.3": 23.04,
+        "1.0": 22.98
+      }
+    },
+    "tag12/W8": {
+      "lr": 0.1,
+      "val_by_lr": {
+        "0.1": 22.98,
+        "0.3": 22.98,
+        "1.0": 22.98
+      }
+    }
+  },
+  "rows": [
+    {
+      "task": "content",
+      "width": 1,
+      "seed": 0,
+      "lr": 1.0,
+      "majority": 0.5218,
+      "learn": 0.6684,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        66.3,
+        66.76,
+        67.16,
+        67.18,
+        67.04,
+        67.02,
+        66.98,
+        67.3,
+        67.14,
+        67.02,
+        67.08,
+        67.22
+      ],
+      "n_params": 1600,
+      "learn_shuf": 0.5272,
+      "fixed_zone": 0.4974,
+      "fixed_linear": 0.5948,
+      "sec": 3.4
+    },
+    {
+      "task": "content",
+      "width": 1,
+      "seed": 1,
+      "lr": 1.0,
+      "majority": 0.5102,
+      "learn": 0.6746,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        66.56,
+        67.32,
+        66.9,
+        67.22,
+        67.32,
+        67.64,
+        67.46,
+        67.68,
+        67.58,
+        67.7,
+        67.24,
+        67.76,
+        67.98,
+        67.64,
+        67.84
+      ],
+      "n_params": 1600,
+      "learn_shuf": 0.5102,
+      "fixed_zone": 0.4904,
+      "fixed_linear": 0.5776,
+      "sec": 3.4
+    },
+    {
+      "task": "content",
+      "width": 1,
+      "seed": 2,
+      "lr": 1.0,
+      "majority": 0.5192,
+      "learn": 0.6748,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        64.84,
+        65.7,
+        66.28,
+        66.64,
+        66.28,
+        66.5,
+        66.64,
+        67.02,
+        66.64,
+        66.9,
+        66.76,
+        66.74
+      ],
+      "n_params": 1600,
+      "learn_shuf": 0.5194,
+      "fixed_zone": 0.496,
+      "fixed_linear": 0.5668,
+      "sec": 3.2
+    },
+    {
+      "task": "content",
+      "width": 1,
+      "seed": 3,
+      "lr": 1.0,
+      "majority": 0.5194,
+      "learn": 0.6662,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        66.7,
+        66.34,
+        66.62,
+        66.66,
+        66.44
+      ],
+      "n_params": 1600,
+      "learn_shuf": 0.5188,
+      "fixed_zone": 0.4674,
+      "fixed_linear": 0.5858,
+      "sec": 2.8
+    },
+    {
+      "task": "content",
+      "width": 1,
+      "seed": 4,
+      "lr": 1.0,
+      "majority": 0.5244,
+      "learn": 0.6696,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        65.7,
+        66.14,
+        66.02,
+        66.18,
+        66.34,
+        66.0,
+        66.04,
+        66.0,
+        66.34
+      ],
+      "n_params": 1600,
+      "learn_shuf": 0.5302,
+      "fixed_zone": 0.4738,
+      "fixed_linear": 0.5936,
+      "sec": 2.8
+    },
+    {
+      "task": "content",
+      "width": 2,
+      "seed": 0,
+      "lr": 1.0,
+      "majority": 0.5218,
+      "learn": 0.6686,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        56.14,
+        64.1,
+        66.04,
+        66.46,
+        66.86,
+        66.92,
+        66.58,
+        66.84,
+        67.0,
+        67.2,
+        66.96,
+        67.16,
+        67.18,
+        67.1
+      ],
+      "n_params": 1760,
+      "learn_shuf": 0.5218,
+      "fixed_zone": 0.4982,
+      "fixed_linear": 0.5854,
+      "sec": 5.2
+    },
+    {
+      "task": "content",
+      "width": 2,
+      "seed": 1,
+      "lr": 1.0,
+      "majority": 0.5102,
+      "learn": 0.6718,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        52.28,
+        62.46,
+        65.52,
+        66.7,
+        67.1,
+        67.34,
+        66.74,
+        67.34,
+        67.56,
+        67.86,
+        67.82,
+        67.78,
+        67.8,
+        67.96,
+        67.84
+      ],
+      "n_params": 1760,
+      "learn_shuf": 0.5102,
+      "fixed_zone": 0.5162,
+      "fixed_linear": 0.5774,
+      "sec": 4.9
+    },
+    {
+      "task": "content",
+      "width": 2,
+      "seed": 2,
+      "lr": 1.0,
+      "majority": 0.5192,
+      "learn": 0.6708,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        54.3,
+        63.06,
+        64.72,
+        65.6,
+        66.3,
+        66.0,
+        66.3,
+        66.4,
+        66.44,
+        66.48,
+        66.52,
+        66.62,
+        66.48,
+        66.58,
+        66.5
+      ],
+      "n_params": 1760,
+      "learn_shuf": 0.5196,
+      "fixed_zone": 0.513,
+      "fixed_linear": 0.5572,
+      "sec": 4.8
+    },
+    {
+      "task": "content",
+      "width": 2,
+      "seed": 3,
+      "lr": 1.0,
+      "majority": 0.5194,
+      "learn": 0.6696,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        57.12,
+        63.34,
+        64.86,
+        65.64,
+        65.62,
+        66.52,
+        66.66,
+        66.7,
+        66.58,
+        66.72,
+        66.6,
+        66.54,
+        66.6,
+        66.68
+      ],
+      "n_params": 1760,
+      "learn_shuf": 0.5184,
+      "fixed_zone": 0.5066,
+      "fixed_linear": 0.5754,
+      "sec": 4.7
+    },
+    {
+      "task": "content",
+      "width": 2,
+      "seed": 4,
+      "lr": 1.0,
+      "majority": 0.5244,
+      "learn": 0.6672,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        55.78,
+        62.64,
+        63.36,
+        64.48,
+        65.02,
+        65.9,
+        65.8,
+        66.22,
+        66.06,
+        66.18,
+        66.06,
+        65.92
+      ],
+      "n_params": 1760,
+      "learn_shuf": 0.5228,
+      "fixed_zone": 0.504,
+      "fixed_linear": 0.5948,
+      "sec": 4.4
+    },
+    {
+      "task": "content",
+      "width": 4,
+      "seed": 0,
+      "lr": 0.1,
+      "majority": 0.5218,
+      "learn": 0.5194,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        51.12,
+        51.3,
+        52.0,
+        51.54,
+        51.46,
+        51.48,
+        51.48
+      ],
+      "n_params": 2080,
+      "learn_shuf": 0.5188,
+      "fixed_zone": 0.52,
+      "fixed_linear": 0.5786,
+      "sec": 7.1
+    },
+    {
+      "task": "content",
+      "width": 4,
+      "seed": 1,
+      "lr": 0.1,
+      "majority": 0.5102,
+      "learn": 0.5098,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        50.0,
+        50.56,
+        51.12,
+        51.04,
+        50.84,
+        50.92,
+        50.92
+      ],
+      "n_params": 2080,
+      "learn_shuf": 0.5108,
+      "fixed_zone": 0.5026,
+      "fixed_linear": 0.5864,
+      "sec": 6.6
+    },
+    {
+      "task": "content",
+      "width": 4,
+      "seed": 2,
+      "lr": 0.1,
+      "majority": 0.5192,
+      "learn": 0.5126,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        50.56,
+        52.32,
+        51.62,
+        51.16,
+        51.46,
+        51.5
+      ],
+      "n_params": 2080,
+      "learn_shuf": 0.5178,
+      "fixed_zone": 0.4842,
+      "fixed_linear": 0.5732,
+      "sec": 6.9
+    },
+    {
+      "task": "content",
+      "width": 4,
+      "seed": 3,
+      "lr": 0.1,
+      "majority": 0.5194,
+      "learn": 0.5162,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        50.76,
+        51.64,
+        52.42,
+        52.44,
+        52.14,
+        52.32,
+        52.38,
+        52.24
+      ],
+      "n_params": 2080,
+      "learn_shuf": 0.5192,
+      "fixed_zone": 0.4842,
+      "fixed_linear": 0.5762,
+      "sec": 8.2
+    },
+    {
+      "task": "content",
+      "width": 4,
+      "seed": 4,
+      "lr": 0.1,
+      "majority": 0.5244,
+      "learn": 0.5218,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        51.08,
+        51.1,
+        51.36,
+        51.52,
+        51.4,
+        51.38,
+        51.48,
+        51.5
+      ],
+      "n_params": 2080,
+      "learn_shuf": 0.5168,
+      "fixed_zone": 0.5008,
+      "fixed_linear": 0.592,
+      "sec": 6.3
+    },
+    {
+      "task": "content",
+      "width": 8,
+      "seed": 0,
+      "lr": 0.1,
+      "majority": 0.5218,
+      "learn": 0.5204,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        50.88,
+        51.8,
+        51.36,
+        51.54,
+        51.5,
+        51.48
+      ],
+      "n_params": 2720,
+      "learn_shuf": 0.5186,
+      "fixed_zone": 0.5192,
+      "fixed_linear": 0.5716,
+      "sec": 12.3
+    },
+    {
+      "task": "content",
+      "width": 8,
+      "seed": 1,
+      "lr": 0.1,
+      "majority": 0.5102,
+      "learn": 0.5126,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        50.68,
+        50.98,
+        50.88,
+        50.88,
+        50.9,
+        50.9
+      ],
+      "n_params": 2720,
+      "learn_shuf": 0.5114,
+      "fixed_zone": 0.5148,
+      "fixed_linear": 0.572,
+      "sec": 12.3
+    },
+    {
+      "task": "content",
+      "width": 8,
+      "seed": 2,
+      "lr": 0.1,
+      "majority": 0.5192,
+      "learn": 0.5206,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        49.82,
+        49.8,
+        50.52,
+        51.72,
+        51.24,
+        51.4,
+        51.44,
+        51.44
+      ],
+      "n_params": 2720,
+      "learn_shuf": 0.5172,
+      "fixed_zone": 0.4852,
+      "fixed_linear": 0.567,
+      "sec": 14.9
+    },
+    {
+      "task": "content",
+      "width": 8,
+      "seed": 3,
+      "lr": 0.1,
+      "majority": 0.5194,
+      "learn": 0.5186,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        48.42,
+        49.36,
+        50.52,
+        50.8,
+        52.12,
+        52.38,
+        52.24,
+        52.16,
+        52.22,
+        52.32
+      ],
+      "n_params": 2720,
+      "learn_shuf": 0.52,
+      "fixed_zone": 0.4938,
+      "fixed_linear": 0.5718,
+      "sec": 19.1
+    },
+    {
+      "task": "content",
+      "width": 8,
+      "seed": 4,
+      "lr": 0.1,
+      "majority": 0.5244,
+      "learn": 0.5234,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        51.12,
+        49.9,
+        51.28,
+        51.48,
+        51.54,
+        51.46,
+        51.42,
+        51.52,
+        51.5
+      ],
+      "n_params": 2720,
+      "learn_shuf": 0.523,
+      "fixed_zone": 0.4946,
+      "fixed_linear": 0.5898,
+      "sec": 17.2
+    },
+    {
+      "task": "tag12",
+      "width": 1,
+      "seed": 0,
+      "lr": 1.0,
+      "majority": 0.2424,
+      "learn": 0.3888,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        23.58,
+        26.08,
+        27.92,
+        35.16,
+        36.5,
+        36.7,
+        37.0,
+        37.44,
+        37.74,
+        37.46,
+        37.66,
+        37.76,
+        37.7,
+        37.94,
+        37.86
+      ],
+      "n_params": 1600,
+      "learn_shuf": 0.242,
+      "fixed_zone": 0.0884,
+      "fixed_linear": 0.2912,
+      "sec": 3.7
+    },
+    {
+      "task": "tag12",
+      "width": 1,
+      "seed": 1,
+      "lr": 1.0,
+      "majority": 0.2366,
+      "learn": 0.3614,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        23.6,
+        25.48,
+        33.28,
+        34.52,
+        34.76,
+        35.6,
+        35.16,
+        35.5,
+        36.42,
+        36.28,
+        36.84,
+        36.78,
+        37.2,
+        36.92,
+        36.8
+      ],
+      "n_params": 1600,
+      "learn_shuf": 0.2366,
+      "fixed_zone": 0.0718,
+      "fixed_linear": 0.2724,
+      "sec": 3.8
+    },
+    {
+      "task": "tag12",
+      "width": 1,
+      "seed": 2,
+      "lr": 1.0,
+      "majority": 0.2338,
+      "learn": 0.3768,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        25.46,
+        32.42,
+        35.3,
+        36.48,
+        36.78,
+        36.54,
+        37.02,
+        37.04,
+        36.36,
+        36.3,
+        36.72,
+        37.14,
+        37.56,
+        37.64,
+        37.54
+      ],
+      "n_params": 1600,
+      "learn_shuf": 0.2338,
+      "fixed_zone": 0.088,
+      "fixed_linear": 0.272,
+      "sec": 4.2
+    },
+    {
+      "task": "tag12",
+      "width": 1,
+      "seed": 3,
+      "lr": 1.0,
+      "majority": 0.2418,
+      "learn": 0.3736,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        24.78,
+        30.06,
+        34.06,
+        34.2,
+        34.3,
+        35.52,
+        36.52,
+        36.78,
+        36.28,
+        36.7,
+        37.12,
+        37.48,
+        37.32,
+        37.1,
+        37.02
+      ],
+      "n_params": 1600,
+      "learn_shuf": 0.2418,
+      "fixed_zone": 0.0896,
+      "fixed_linear": 0.3012,
+      "sec": 3.7
+    },
+    {
+      "task": "tag12",
+      "width": 1,
+      "seed": 4,
+      "lr": 1.0,
+      "majority": 0.2424,
+      "learn": 0.367,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        25.56,
+        30.12,
+        35.3,
+        35.36,
+        36.3,
+        35.38,
+        35.36,
+        35.86,
+        36.12
+      ],
+      "n_params": 1600,
+      "learn_shuf": 0.2424,
+      "fixed_zone": 0.0822,
+      "fixed_linear": 0.2832,
+      "sec": 3.3
+    },
+    {
+      "task": "tag12",
+      "width": 2,
+      "seed": 0,
+      "lr": 0.1,
+      "majority": 0.2424,
+      "learn": 0.2418,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        9.2,
+        15.16,
+        19.6,
+        21.64,
+        22.54,
+        22.88,
+        22.98,
+        23.02,
+        23.04,
+        22.98,
+        22.98,
+        23.0,
+        22.98
+      ],
+      "n_params": 1760,
+      "learn_shuf": 0.2424,
+      "fixed_zone": 0.0614,
+      "fixed_linear": 0.2708,
+      "sec": 7.0
+    },
+    {
+      "task": "tag12",
+      "width": 2,
+      "seed": 1,
+      "lr": 0.1,
+      "majority": 0.2366,
+      "learn": 0.2366,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        20.48,
+        23.0,
+        22.96,
+        23.04,
+        23.04,
+        23.1,
+        23.08,
+        23.08,
+        23.06,
+        23.08
+      ],
+      "n_params": 1760,
+      "learn_shuf": 0.2362,
+      "fixed_zone": 0.0966,
+      "fixed_linear": 0.285,
+      "sec": 5.3
+    },
+    {
+      "task": "tag12",
+      "width": 2,
+      "seed": 2,
+      "lr": 0.1,
+      "majority": 0.2338,
+      "learn": 0.2336,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        10.88,
+        18.62,
+        23.2,
+        23.6,
+        23.86,
+        23.88,
+        23.88,
+        23.86,
+        23.86,
+        23.86
+      ],
+      "n_params": 1760,
+      "learn_shuf": 0.2336,
+      "fixed_zone": 0.0562,
+      "fixed_linear": 0.276,
+      "sec": 5.6
+    },
+    {
+      "task": "tag12",
+      "width": 2,
+      "seed": 3,
+      "lr": 0.1,
+      "majority": 0.2418,
+      "learn": 0.2434,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        10.92,
+        14.04,
+        18.14,
+        21.7,
+        23.0,
+        23.5,
+        23.8,
+        23.68,
+        23.88,
+        23.9,
+        23.74,
+        23.74,
+        23.8,
+        23.82
+      ],
+      "n_params": 1760,
+      "learn_shuf": 0.2418,
+      "fixed_zone": 0.0704,
+      "fixed_linear": 0.2866,
+      "sec": 7.1
+    },
+    {
+      "task": "tag12",
+      "width": 2,
+      "seed": 4,
+      "lr": 0.1,
+      "majority": 0.2424,
+      "learn": 0.2428,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        9.22,
+        12.24,
+        15.06,
+        17.8,
+        19.04,
+        21.96,
+        22.16,
+        23.44,
+        24.36,
+        24.32,
+        24.36,
+        24.4,
+        24.56,
+        24.46,
+        24.5
+      ],
+      "n_params": 1760,
+      "learn_shuf": 0.2424,
+      "fixed_zone": 0.0642,
+      "fixed_linear": 0.2988,
+      "sec": 7.7
+    },
+    {
+      "task": "tag12",
+      "width": 4,
+      "seed": 0,
+      "lr": 0.3,
+      "majority": 0.2424,
+      "learn": 0.241,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        23.04,
+        23.0,
+        22.98,
+        22.98,
+        22.98
+      ],
+      "n_params": 2080,
+      "learn_shuf": 0.2424,
+      "fixed_zone": 0.0806,
+      "fixed_linear": 0.2868,
+      "sec": 7.0
+    },
+    {
+      "task": "tag12",
+      "width": 4,
+      "seed": 1,
+      "lr": 0.3,
+      "majority": 0.2366,
+      "learn": 0.2368,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        22.76,
+        23.04,
+        23.08,
+        23.08,
+        23.08,
+        23.08,
+        23.08
+      ],
+      "n_params": 2080,
+      "learn_shuf": 0.2366,
+      "fixed_zone": 0.1608,
+      "fixed_linear": 0.2708,
+      "sec": 7.0
+    },
+    {
+      "task": "tag12",
+      "width": 4,
+      "seed": 2,
+      "lr": 0.3,
+      "majority": 0.2338,
+      "learn": 0.2336,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        23.64,
+        23.88,
+        23.86,
+        23.86,
+        23.86,
+        23.86
+      ],
+      "n_params": 2080,
+      "learn_shuf": 0.2338,
+      "fixed_zone": 0.0984,
+      "fixed_linear": 0.2766,
+      "sec": 6.6
+    },
+    {
+      "task": "tag12",
+      "width": 4,
+      "seed": 3,
+      "lr": 0.3,
+      "majority": 0.2418,
+      "learn": 0.2418,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        16.16,
+        22.84,
+        23.7,
+        23.76,
+        23.78,
+        23.76,
+        23.76,
+        23.76,
+        23.76
+      ],
+      "n_params": 2080,
+      "learn_shuf": 0.2418,
+      "fixed_zone": 0.0816,
+      "fixed_linear": 0.2844,
+      "sec": 8.7
+    },
+    {
+      "task": "tag12",
+      "width": 4,
+      "seed": 4,
+      "lr": 0.3,
+      "majority": 0.2424,
+      "learn": 0.2424,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        24.3,
+        24.48,
+        24.5,
+        24.5,
+        24.5,
+        24.5,
+        24.5
+      ],
+      "n_params": 2080,
+      "learn_shuf": 0.2426,
+      "fixed_zone": 0.0718,
+      "fixed_linear": 0.2876,
+      "sec": 6.9
+    },
+    {
+      "task": "tag12",
+      "width": 8,
+      "seed": 0,
+      "lr": 0.1,
+      "majority": 0.2424,
+      "learn": 0.2426,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        9.84,
+        14.48,
+        18.94,
+        22.28,
+        21.88,
+        22.28,
+        22.76,
+        22.96,
+        22.98,
+        22.98,
+        22.96,
+        22.98,
+        22.98
+      ],
+      "n_params": 2720,
+      "learn_shuf": 0.2432,
+      "fixed_zone": 0.0678,
+      "fixed_linear": 0.2766,
+      "sec": 21.5
+    },
+    {
+      "task": "tag12",
+      "width": 8,
+      "seed": 1,
+      "lr": 0.1,
+      "majority": 0.2366,
+      "learn": 0.2366,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        16.66,
+        21.12,
+        22.58,
+        22.62,
+        23.04,
+        23.04,
+        23.0,
+        23.04,
+        23.08,
+        23.08,
+        23.08,
+        23.08,
+        23.08
+      ],
+      "n_params": 2720,
+      "learn_shuf": 0.238,
+      "fixed_zone": 0.07,
+      "fixed_linear": 0.2708,
+      "sec": 20.3
+    },
+    {
+      "task": "tag12",
+      "width": 8,
+      "seed": 2,
+      "lr": 0.1,
+      "majority": 0.2338,
+      "learn": 0.234,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        15.74,
+        19.58,
+        21.56,
+        22.96,
+        23.5,
+        23.76,
+        23.88,
+        23.84,
+        23.86,
+        23.86,
+        23.84
+      ],
+      "n_params": 2720,
+      "learn_shuf": 0.2332,
+      "fixed_zone": 0.116,
+      "fixed_linear": 0.2666,
+      "sec": 18.9
+    },
+    {
+      "task": "tag12",
+      "width": 8,
+      "seed": 3,
+      "lr": 0.1,
+      "majority": 0.2418,
+      "learn": 0.2418,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        12.84,
+        16.28,
+        19.04,
+        21.82,
+        23.04,
+        23.6,
+        23.62,
+        23.74,
+        23.74,
+        23.76,
+        23.76,
+        23.76,
+        23.76,
+        23.76
+      ],
+      "n_params": 2720,
+      "learn_shuf": 0.2416,
+      "fixed_zone": 0.094,
+      "fixed_linear": 0.2886,
+      "sec": 22.2
+    },
+    {
+      "task": "tag12",
+      "width": 8,
+      "seed": 4,
+      "lr": 0.1,
+      "majority": 0.2424,
+      "learn": 0.2424,
+      "learn_silent": 0.0,
+      "learn_val_curve": [
+        15.2,
+        20.86,
+        22.36,
+        23.1,
+        23.96,
+        24.44,
+        24.34,
+        24.46,
+        24.48,
+        24.5,
+        24.5,
+        24.5,
+        24.5,
+        24.5
+      ],
+      "n_params": 2720,
+      "learn_shuf": 0.2406,
+      "fixed_zone": 0.0842,
+      "fixed_linear": 0.2824,
+      "sec": 20.6
+    }
+  ],
+  "summary": {
+    "content/W1": {
+      "majority": [
+        51.9,
+        0.48
+      ],
+      "learn": [
+        67.07,
+        0.34
+      ],
+      "learn_shuf": [
+        52.12,
+        0.7
+      ],
+      "fixed_zone": [
+        48.5,
+        1.22
+      ],
+      "fixed_linear": [
+        58.37,
+        1.05
+      ],
+      "n_params": 1600,
+      "silent": 0.0
+    },
+    "content/W2": {
+      "majority": [
+        51.9,
+        0.48
+      ],
+      "learn": [
+        66.96,
+        0.16
+      ],
+      "learn_shuf": [
+        51.86,
+        0.45
+      ],
+      "fixed_zone": [
+        50.76,
+        0.64
+      ],
+      "fixed_linear": [
+        57.8,
+        1.25
+      ],
+      "n_params": 1760,
+      "silent": 0.0
+    },
+    "content/W4": {
+      "majority": [
+        51.9,
+        0.48
+      ],
+      "learn": [
+        51.6,
+        0.44
+      ],
+      "learn_shuf": [
+        51.67,
+        0.31
+      ],
+      "fixed_zone": [
+        49.84,
+        1.34
+      ],
+      "fixed_linear": [
+        58.13,
+        0.69
+      ],
+      "n_params": 2080,
+      "silent": 0.0
+    },
+    "content/W8": {
+      "majority": [
+        51.9,
+        0.48
+      ],
+      "learn": [
+        51.91,
+        0.36
+      ],
+      "learn_shuf": [
+        51.8,
+        0.38
+      ],
+      "fixed_zone": [
+        50.15,
+        1.31
+      ],
+      "fixed_linear": [
+        57.44,
+        0.79
+      ],
+      "n_params": 2720,
+      "silent": 0.0
+    },
+    "tag12/W1": {
+      "majority": [
+        23.94,
+        0.35
+      ],
+      "learn": [
+        37.35,
+        0.93
+      ],
+      "learn_shuf": [
+        23.93,
+        0.35
+      ],
+      "fixed_zone": [
+        8.4,
+        0.66
+      ],
+      "fixed_linear": [
+        28.4,
+        1.12
+      ],
+      "n_params": 1600,
+      "silent": 0.0
+    },
+    "tag12/W2": {
+      "majority": [
+        23.94,
+        0.35
+      ],
+      "learn": [
+        23.96,
+        0.39
+      ],
+      "learn_shuf": [
+        23.93,
+        0.37
+      ],
+      "fixed_zone": [
+        6.98,
+        1.42
+      ],
+      "fixed_linear": [
+        28.34,
+        0.96
+      ],
+      "n_params": 1760,
+      "silent": 0.0
+    },
+    "tag12/W4": {
+      "majority": [
+        23.94,
+        0.35
+      ],
+      "learn": [
+        23.91,
+        0.34
+      ],
+      "learn_shuf": [
+        23.94,
+        0.36
+      ],
+      "fixed_zone": [
+        9.86,
+        3.22
+      ],
+      "fixed_linear": [
+        28.12,
+        0.65
+      ],
+      "n_params": 2080,
+      "silent": 0.0
+    },
+    "tag12/W8": {
+      "majority": [
+        23.94,
+        0.35
+      ],
+      "learn": [
+        23.95,
+        0.35
+      ],
+      "learn_shuf": [
+        23.93,
+        0.35
+      ],
+      "fixed_zone": [
+        8.64,
+        1.76
+      ],
+      "fixed_linear": [
+        27.7,
+        0.79
+      ],
+      "n_params": 2720,
+      "silent": 0.0
+    }
+  }
+}

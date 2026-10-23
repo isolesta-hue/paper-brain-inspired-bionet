@@ -1,0 +1,6894 @@
+{
+  "sizes": [
+    50,
+    100,
+    300,
+    1000,
+    3000,
+    10000,
+    20000
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "models": [
+    "mem2k",
+    "mem8k",
+    "mem8k_shuf",
+    "ngram",
+    "logreg_full",
+    "mlp16_full",
+    "mlp64_1pass",
+    "mlp64_full",
+    "grid_1pass",
+    "grid_full"
+  ],
+  "rows": [
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 1,
+      "model": "grid_1pass",
+      "test": 0.6794,
+      "n_params": 3720,
+      "sec": 1.2
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 0,
+      "model": "grid_1pass",
+      "test": 0.6756,
+      "n_params": 3720,
+      "sec": 1.2
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 2,
+      "model": "grid_1pass",
+      "test": 0.676,
+      "n_params": 3720,
+      "sec": 1.2
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 3,
+      "model": "grid_1pass",
+      "test": 0.672,
+      "n_params": 3720,
+      "sec": 1.2
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 0,
+      "model": "grid_full",
+      "test": 0.6924,
+      "n_params": 3720,
+      "sec": 10.2
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 2,
+      "model": "grid_full",
+      "test": 0.6912,
+      "n_params": 3720,
+      "sec": 8.6
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 4,
+      "model": "grid_1pass",
+      "test": 0.6748,
+      "n_params": 3720,
+      "sec": 1.3
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 1,
+      "model": "grid_full",
+      "test": 0.6974,
+      "n_params": 3720,
+      "sec": 13.1
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 0,
+      "model": "grid_1pass",
+      "test": 0.3412,
+      "n_params": 3720,
+      "sec": 1.3
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 1,
+      "model": "grid_1pass",
+      "test": 0.3412,
+      "n_params": 3720,
+      "sec": 1.2
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 3,
+      "model": "grid_full",
+      "test": 0.7004,
+      "n_params": 3720,
+      "sec": 12.7
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 2,
+      "model": "grid_1pass",
+      "test": 0.351,
+      "n_params": 3720,
+      "sec": 1.3
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 4,
+      "model": "grid_full",
+      "test": 0.6948,
+      "n_params": 3720,
+      "sec": 10.1
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 3,
+      "model": "grid_1pass",
+      "test": 0.3604,
+      "n_params": 3720,
+      "sec": 1.2
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 0,
+      "model": "grid_full",
+      "test": 0.3894,
+      "n_params": 3720,
+      "sec": 11.7
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 4,
+      "model": "grid_1pass",
+      "test": 0.3488,
+      "n_params": 3720,
+      "sec": 1.4
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 1,
+      "model": "grid_full",
+      "test": 0.3858,
+      "n_params": 3720,
+      "sec": 13.4
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 0,
+      "model": "grid_1pass",
+      "test": 0.6688,
+      "n_params": 3720,
+      "sec": 1.0
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 2,
+      "model": "grid_full",
+      "test": 0.3814,
+      "n_params": 3720,
+      "sec": 13.2
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 1,
+      "model": "grid_1pass",
+      "test": 0.51,
+      "n_params": 3720,
+      "sec": 1.1
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 3,
+      "model": "grid_full",
+      "test": 0.3988,
+      "n_params": 3720,
+      "sec": 13.2
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 0,
+      "model": "grid_full",
+      "test": 0.6772,
+      "n_params": 3720,
+      "sec": 6.2
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 2,
+      "model": "grid_1pass",
+      "test": 0.675,
+      "n_params": 3720,
+      "sec": 1.2
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 4,
+      "model": "grid_full",
+      "test": 0.393,
+      "n_params": 3720,
+      "sec": 13.8
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 3,
+      "model": "grid_1pass",
+      "test": 0.6692,
+      "n_params": 3720,
+      "sec": 1.0
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 4,
+      "model": "grid_1pass",
+      "test": 0.674,
+      "n_params": 3720,
+      "sec": 0.9
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 1,
+      "model": "grid_full",
+      "test": 0.6902,
+      "n_params": 3720,
+      "sec": 7.3
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 0,
+      "model": "grid_1pass",
+      "test": 0.3328,
+      "n_params": 3720,
+      "sec": 1.0
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 2,
+      "model": "grid_full",
+      "test": 0.6874,
+      "n_params": 3720,
+      "sec": 9.5
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 1,
+      "model": "grid_1pass",
+      "test": 0.295,
+      "n_params": 3720,
+      "sec": 1.0
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 3,
+      "model": "grid_full",
+      "test": 0.6908,
+      "n_params": 3720,
+      "sec": 9.5
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 0,
+      "model": "grid_full",
+      "test": 0.374,
+      "n_params": 3720,
+      "sec": 5.1
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 2,
+      "model": "grid_1pass",
+      "test": 0.3408,
+      "n_params": 3720,
+      "sec": 1.0
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 4,
+      "model": "grid_full",
+      "test": 0.6878,
+      "n_params": 3720,
+      "sec": 9.4
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 3,
+      "model": "grid_1pass",
+      "test": 0.3362,
+      "n_params": 3720,
+      "sec": 1.0
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 4,
+      "model": "grid_1pass",
+      "test": 0.336,
+      "n_params": 3720,
+      "sec": 1.0
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 1,
+      "model": "grid_full",
+      "test": 0.3542,
+      "n_params": 3720,
+      "sec": 5.7
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 0,
+      "model": "grid_1pass",
+      "test": 0.6664,
+      "n_params": 3720,
+      "sec": 0.9
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 2,
+      "model": "grid_full",
+      "test": 0.3786,
+      "n_params": 3720,
+      "sec": 7.2
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 1,
+      "model": "grid_1pass",
+      "test": 0.6692,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 3,
+      "model": "grid_full",
+      "test": 0.381,
+      "n_params": 3720,
+      "sec": 8.4
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 2,
+      "model": "grid_1pass",
+      "test": 0.6698,
+      "n_params": 3720,
+      "sec": 0.9
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 1,
+      "model": "grid_full",
+      "test": 0.6692,
+      "n_params": 3720,
+      "sec": 2.7
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 0,
+      "model": "grid_full",
+      "test": 0.6716,
+      "n_params": 3720,
+      "sec": 5.8
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 3,
+      "model": "grid_1pass",
+      "test": 0.6444,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 4,
+      "model": "grid_full",
+      "test": 0.3786,
+      "n_params": 3720,
+      "sec": 9.6
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 4,
+      "model": "grid_1pass",
+      "test": 0.5244,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 0,
+      "model": "grid_1pass",
+      "test": 0.2468,
+      "n_params": 3720,
+      "sec": 0.9
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 3,
+      "model": "grid_full",
+      "test": 0.6714,
+      "n_params": 3720,
+      "sec": 3.6
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 2,
+      "model": "grid_full",
+      "test": 0.6792,
+      "n_params": 3720,
+      "sec": 6.5
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 1,
+      "model": "grid_1pass",
+      "test": 0.2548,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 4,
+      "model": "grid_full",
+      "test": 0.6774,
+      "n_params": 3720,
+      "sec": 5.5
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 2,
+      "model": "grid_1pass",
+      "test": 0.282,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 0,
+      "model": "grid_full",
+      "test": 0.3646,
+      "n_params": 3720,
+      "sec": 4.0
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 3,
+      "model": "grid_1pass",
+      "test": 0.2474,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 1,
+      "model": "grid_full",
+      "test": 0.3406,
+      "n_params": 3720,
+      "sec": 4.1
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 4,
+      "model": "grid_1pass",
+      "test": 0.2424,
+      "n_params": 3720,
+      "sec": 0.9
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 2,
+      "model": "grid_full",
+      "test": 0.3568,
+      "n_params": 3720,
+      "sec": 3.6
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 0,
+      "model": "grid_1pass",
+      "test": 0.6398,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 1,
+      "model": "grid_1pass",
+      "test": 0.6028,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 3,
+      "model": "grid_full",
+      "test": 0.37,
+      "n_params": 3720,
+      "sec": 5.6
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 4,
+      "model": "grid_full",
+      "test": 0.3632,
+      "n_params": 3720,
+      "sec": 4.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 0,
+      "model": "grid_full",
+      "test": 0.6678,
+      "n_params": 3720,
+      "sec": 2.9
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 2,
+      "model": "grid_1pass",
+      "test": 0.4808,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 3,
+      "model": "grid_1pass",
+      "test": 0.4806,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 4,
+      "model": "grid_1pass",
+      "test": 0.6162,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 2,
+      "model": "grid_full",
+      "test": 0.6728,
+      "n_params": 3720,
+      "sec": 4.8
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 3,
+      "model": "grid_full",
+      "test": 0.6692,
+      "n_params": 3720,
+      "sec": 3.7
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 1,
+      "model": "grid_full",
+      "test": 0.6722,
+      "n_params": 3720,
+      "sec": 6.5
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 0,
+      "model": "grid_1pass",
+      "test": 0.2424,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 1,
+      "model": "grid_1pass",
+      "test": 0.2366,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 4,
+      "model": "grid_full",
+      "test": 0.669,
+      "n_params": 3720,
+      "sec": 4.0
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 2,
+      "model": "grid_1pass",
+      "test": 0.1632,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 0,
+      "model": "grid_full",
+      "test": 0.341,
+      "n_params": 3720,
+      "sec": 4.4
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 3,
+      "model": "grid_1pass",
+      "test": 0.2418,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 4,
+      "model": "grid_1pass",
+      "test": 0.2424,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 1,
+      "model": "grid_full",
+      "test": 0.331,
+      "n_params": 3720,
+      "sec": 6.4
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 2,
+      "model": "grid_full",
+      "test": 0.3672,
+      "n_params": 3720,
+      "sec": 6.6
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 0,
+      "model": "grid_1pass",
+      "test": 0.5218,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 4,
+      "model": "grid_full",
+      "test": 0.2424,
+      "n_params": 3720,
+      "sec": 2.5
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 1,
+      "model": "grid_1pass",
+      "test": 0.4898,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 3,
+      "model": "grid_full",
+      "test": 0.338,
+      "n_params": 3720,
+      "sec": 6.6
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 0,
+      "model": "grid_full",
+      "test": 0.5218,
+      "n_params": 3720,
+      "sec": 2.4
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 2,
+      "model": "grid_1pass",
+      "test": 0.4808,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 3,
+      "model": "grid_1pass",
+      "test": 0.4806,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 1,
+      "model": "grid_full",
+      "test": 0.643,
+      "n_params": 3720,
+      "sec": 4.9
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 4,
+      "model": "grid_1pass",
+      "test": 0.4756,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 0,
+      "model": "grid_1pass",
+      "test": 0.22,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 2,
+      "model": "grid_full",
+      "test": 0.6598,
+      "n_params": 3720,
+      "sec": 6.2
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 3,
+      "model": "grid_full",
+      "test": 0.62,
+      "n_params": 3720,
+      "sec": 6.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 1,
+      "model": "grid_1pass",
+      "test": 0.2366,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 0,
+      "model": "grid_full",
+      "test": 0.2424,
+      "n_params": 3720,
+      "sec": 2.7
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 4,
+      "model": "grid_full",
+      "test": 0.6476,
+      "n_params": 3720,
+      "sec": 5.7
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 2,
+      "model": "grid_1pass",
+      "test": 0.1262,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 3,
+      "model": "grid_1pass",
+      "test": 0.2418,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 4,
+      "model": "grid_1pass",
+      "test": 0.2424,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 1,
+      "model": "grid_full",
+      "test": 0.315,
+      "n_params": 3720,
+      "sec": 6.3
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 2,
+      "model": "grid_full",
+      "test": 0.3422,
+      "n_params": 3720,
+      "sec": 6.3
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 0,
+      "model": "grid_1pass",
+      "test": 0.5218,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 4,
+      "model": "grid_full",
+      "test": 0.2424,
+      "n_params": 3720,
+      "sec": 2.3
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 3,
+      "model": "grid_full",
+      "test": 0.3106,
+      "n_params": 3720,
+      "sec": 6.1
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 1,
+      "model": "grid_1pass",
+      "test": 0.4898,
+      "n_params": 3720,
+      "sec": 0.7
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 2,
+      "model": "grid_1pass",
+      "test": 0.4802,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 1,
+      "model": "grid_full",
+      "test": 0.5102,
+      "n_params": 3720,
+      "sec": 2.6
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 3,
+      "model": "grid_1pass",
+      "test": 0.4806,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 0,
+      "model": "grid_full",
+      "test": 0.599,
+      "n_params": 3720,
+      "sec": 4.9
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 2,
+      "model": "grid_full",
+      "test": 0.6048,
+      "n_params": 3720,
+      "sec": 3.4
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 4,
+      "model": "grid_1pass",
+      "test": 0.4756,
+      "n_params": 3720,
+      "sec": 0.7
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 0,
+      "model": "grid_1pass",
+      "test": 0.0438,
+      "n_params": 3720,
+      "sec": 0.7
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 3,
+      "model": "grid_full",
+      "test": 0.5412,
+      "n_params": 3720,
+      "sec": 3.7
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 1,
+      "model": "grid_1pass",
+      "test": 0.1062,
+      "n_params": 3720,
+      "sec": 0.7
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 4,
+      "model": "grid_full",
+      "test": 0.5244,
+      "n_params": 3720,
+      "sec": 3.7
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 2,
+      "model": "grid_1pass",
+      "test": 0.121,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 0,
+      "model": "grid_full",
+      "test": 0.2424,
+      "n_params": 3720,
+      "sec": 4.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 1,
+      "model": "grid_full",
+      "test": 0.184,
+      "n_params": 3720,
+      "sec": 2.6
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 3,
+      "model": "grid_1pass",
+      "test": 0.1192,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 4,
+      "model": "grid_1pass",
+      "test": 0.1204,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 2,
+      "model": "grid_full",
+      "test": 0.2338,
+      "n_params": 3720,
+      "sec": 2.7
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 3,
+      "model": "grid_full",
+      "test": 0.2418,
+      "n_params": 3720,
+      "sec": 2.7
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 0,
+      "model": "grid_1pass",
+      "test": 0.4782,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 1,
+      "model": "grid_1pass",
+      "test": 0.4898,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 4,
+      "model": "grid_full",
+      "test": 0.2424,
+      "n_params": 3720,
+      "sec": 4.2
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 2,
+      "model": "grid_1pass",
+      "test": 0.5158,
+      "n_params": 3720,
+      "sec": 0.7
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 0,
+      "model": "grid_full",
+      "test": 0.5218,
+      "n_params": 3720,
+      "sec": 3.4
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 3,
+      "model": "grid_1pass",
+      "test": 0.5194,
+      "n_params": 3720,
+      "sec": 0.7
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 2,
+      "model": "grid_full",
+      "test": 0.563,
+      "n_params": 3720,
+      "sec": 2.7
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 3,
+      "model": "grid_full",
+      "test": 0.5194,
+      "n_params": 3720,
+      "sec": 2.3
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 4,
+      "model": "grid_1pass",
+      "test": 0.5244,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 1,
+      "model": "grid_full",
+      "test": 0.5818,
+      "n_params": 3720,
+      "sec": 5.4
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 0,
+      "model": "grid_1pass",
+      "test": 0.2424,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 1,
+      "model": "grid_1pass",
+      "test": 0.2366,
+      "n_params": 3720,
+      "sec": 0.7
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 4,
+      "model": "grid_full",
+      "test": 0.5244,
+      "n_params": 3720,
+      "sec": 2.3
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 0,
+      "model": "grid_full",
+      "test": 0.2424,
+      "n_params": 3720,
+      "sec": 2.3
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 2,
+      "model": "grid_1pass",
+      "test": 0.2338,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 3,
+      "model": "grid_1pass",
+      "test": 0.2418,
+      "n_params": 3720,
+      "sec": 0.7
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 1,
+      "model": "grid_full",
+      "test": 0.2366,
+      "n_params": 3720,
+      "sec": 2.3
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 4,
+      "model": "grid_1pass",
+      "test": 0.1204,
+      "n_params": 3720,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 2,
+      "model": "grid_full",
+      "test": 0.234,
+      "n_params": 3720,
+      "sec": 2.7
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 3,
+      "model": "grid_full",
+      "test": 0.2418,
+      "n_params": 3720,
+      "sec": 2.4
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 0,
+      "model": "mem2k",
+      "test": 0.5786,
+      "n_params": 4000,
+      "sec": 0.6
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 0,
+      "model": "ngram",
+      "test": 0.5556,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 0,
+      "model": "mem8k",
+      "test": 0.5806,
+      "n_params": 16000,
+      "sec": 1.3
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 0,
+      "model": "mem8k_shuf",
+      "test": 0.5044,
+      "n_params": 16000,
+      "sec": 1.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 0,
+      "model": "logreg_full",
+      "test": 0.5768,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 0,
+      "model": "mlp16_full",
+      "test": 0.558,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 0,
+      "model": "mlp64_1pass",
+      "test": 0.484,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 4,
+      "model": "grid_full",
+      "test": 0.2424,
+      "n_params": 3720,
+      "sec": 4.4
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 0,
+      "model": "mlp64_full",
+      "test": 0.5666,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 1,
+      "model": "mem2k",
+      "test": 0.5672,
+      "n_params": 4000,
+      "sec": 0.3
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 1,
+      "model": "ngram",
+      "test": 0.5156,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 1,
+      "model": "logreg_full",
+      "test": 0.5986,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 1,
+      "model": "mem8k",
+      "test": 0.5932,
+      "n_params": 16000,
+      "sec": 1.2
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 1,
+      "model": "mem8k_shuf",
+      "test": 0.4912,
+      "n_params": 16000,
+      "sec": 1.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 1,
+      "model": "mlp16_full",
+      "test": 0.6116,
+      "n_params": 674,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 1,
+      "model": "mlp64_1pass",
+      "test": 0.4786,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 1,
+      "model": "mlp64_full",
+      "test": 0.5678,
+      "n_params": 2690,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 2,
+      "model": "mem2k",
+      "test": 0.593,
+      "n_params": 4000,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 2,
+      "model": "mem8k",
+      "test": 0.5602,
+      "n_params": 16000,
+      "sec": 0.4
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 2,
+      "model": "ngram",
+      "test": 0.5646,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 2,
+      "model": "logreg_full",
+      "test": 0.5654,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 2,
+      "model": "mem8k_shuf",
+      "test": 0.446,
+      "n_params": 16000,
+      "sec": 0.6
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 2,
+      "model": "mlp16_full",
+      "test": 0.558,
+      "n_params": 674,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 2,
+      "model": "mlp64_1pass",
+      "test": 0.5504,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 2,
+      "model": "mlp64_full",
+      "test": 0.5874,
+      "n_params": 2690,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 3,
+      "model": "mem2k",
+      "test": 0.5882,
+      "n_params": 4000,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 3,
+      "model": "ngram",
+      "test": 0.5806,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 3,
+      "model": "logreg_full",
+      "test": 0.6158,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 3,
+      "model": "mem8k",
+      "test": 0.5982,
+      "n_params": 16000,
+      "sec": 0.9
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 3,
+      "model": "mem8k_shuf",
+      "test": 0.5374,
+      "n_params": 16000,
+      "sec": 0.9
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 3,
+      "model": "mlp16_full",
+      "test": 0.5894,
+      "n_params": 674,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 3,
+      "model": "mlp64_1pass",
+      "test": 0.4916,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 3,
+      "model": "mlp64_full",
+      "test": 0.6054,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 4,
+      "model": "mem2k",
+      "test": 0.57,
+      "n_params": 4000,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 4,
+      "model": "mem8k",
+      "test": 0.5592,
+      "n_params": 16000,
+      "sec": 0.4
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 4,
+      "model": "mem8k_shuf",
+      "test": 0.53,
+      "n_params": 16000,
+      "sec": 0.4
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 4,
+      "model": "ngram",
+      "test": 0.5838,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 4,
+      "model": "logreg_full",
+      "test": 0.5568,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 4,
+      "model": "mlp16_full",
+      "test": 0.5494,
+      "n_params": 674,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 4,
+      "model": "mlp64_1pass",
+      "test": 0.556,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 50,
+      "seed": 4,
+      "model": "mlp64_full",
+      "test": 0.5846,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 0,
+      "model": "mem2k",
+      "test": 0.5962,
+      "n_params": 4000,
+      "sec": 0.3
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 0,
+      "model": "ngram",
+      "test": 0.5334,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 0,
+      "model": "logreg_full",
+      "test": 0.5822,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 0,
+      "model": "mem8k",
+      "test": 0.5988,
+      "n_params": 16000,
+      "sec": 1.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 0,
+      "model": "mem8k_shuf",
+      "test": 0.4496,
+      "n_params": 16000,
+      "sec": 1.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 0,
+      "model": "mlp16_full",
+      "test": 0.5838,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 0,
+      "model": "mlp64_1pass",
+      "test": 0.4666,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 0,
+      "model": "mlp64_full",
+      "test": 0.5736,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 1,
+      "model": "mem2k",
+      "test": 0.5912,
+      "n_params": 4000,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 1,
+      "model": "mem8k",
+      "test": 0.607,
+      "n_params": 16000,
+      "sec": 0.4
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 1,
+      "model": "ngram",
+      "test": 0.5676,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 1,
+      "model": "mem8k_shuf",
+      "test": 0.5168,
+      "n_params": 16000,
+      "sec": 0.4
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 1,
+      "model": "logreg_full",
+      "test": 0.5666,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 1,
+      "model": "mlp16_full",
+      "test": 0.5836,
+      "n_params": 674,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 1,
+      "model": "mlp64_1pass",
+      "test": 0.4774,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 1,
+      "model": "mlp64_full",
+      "test": 0.6104,
+      "n_params": 2690,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 2,
+      "model": "mem2k",
+      "test": 0.584,
+      "n_params": 4000,
+      "sec": 0.3
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 2,
+      "model": "ngram",
+      "test": 0.5902,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 2,
+      "model": "logreg_full",
+      "test": 0.577,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 2,
+      "model": "mem8k",
+      "test": 0.5692,
+      "n_params": 16000,
+      "sec": 1.1
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 2,
+      "model": "mem8k_shuf",
+      "test": 0.4742,
+      "n_params": 16000,
+      "sec": 1.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 2,
+      "model": "mlp16_full",
+      "test": 0.5928,
+      "n_params": 674,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 2,
+      "model": "mlp64_1pass",
+      "test": 0.5656,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 2,
+      "model": "mlp64_full",
+      "test": 0.6072,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 3,
+      "model": "mem2k",
+      "test": 0.5938,
+      "n_params": 4000,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 3,
+      "model": "mem8k",
+      "test": 0.6022,
+      "n_params": 16000,
+      "sec": 0.6
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 3,
+      "model": "ngram",
+      "test": 0.6022,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 3,
+      "model": "mem8k_shuf",
+      "test": 0.5054,
+      "n_params": 16000,
+      "sec": 0.5
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 3,
+      "model": "logreg_full",
+      "test": 0.5968,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 3,
+      "model": "mlp16_full",
+      "test": 0.5918,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 3,
+      "model": "mlp64_1pass",
+      "test": 0.4804,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 3,
+      "model": "mlp64_full",
+      "test": 0.6076,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 4,
+      "model": "mem2k",
+      "test": 0.6216,
+      "n_params": 4000,
+      "sec": 0.3
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 4,
+      "model": "ngram",
+      "test": 0.5916,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 4,
+      "model": "mem8k",
+      "test": 0.61,
+      "n_params": 16000,
+      "sec": 0.5
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 4,
+      "model": "mem8k_shuf",
+      "test": 0.441,
+      "n_params": 16000,
+      "sec": 0.5
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 4,
+      "model": "logreg_full",
+      "test": 0.6038,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 4,
+      "model": "mlp16_full",
+      "test": 0.6306,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 4,
+      "model": "mlp64_1pass",
+      "test": 0.5568,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 100,
+      "seed": 4,
+      "model": "mlp64_full",
+      "test": 0.644,
+      "n_params": 2690,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 0,
+      "model": "mem2k",
+      "test": 0.632,
+      "n_params": 4000,
+      "sec": 0.3
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 0,
+      "model": "ngram",
+      "test": 0.5602,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 0,
+      "model": "logreg_full",
+      "test": 0.623,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 0,
+      "model": "mlp16_full",
+      "test": 0.6202,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 0,
+      "model": "mem8k",
+      "test": 0.635,
+      "n_params": 16000,
+      "sec": 1.5
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 0,
+      "model": "mem8k_shuf",
+      "test": 0.4792,
+      "n_params": 16000,
+      "sec": 1.3
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 0,
+      "model": "mlp64_1pass",
+      "test": 0.5022,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 0,
+      "model": "mlp64_full",
+      "test": 0.618,
+      "n_params": 2690,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 1,
+      "model": "mem2k",
+      "test": 0.6342,
+      "n_params": 4000,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 1,
+      "model": "mem8k",
+      "test": 0.6324,
+      "n_params": 16000,
+      "sec": 0.4
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 1,
+      "model": "mem8k_shuf",
+      "test": 0.4692,
+      "n_params": 16000,
+      "sec": 0.4
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 1,
+      "model": "ngram",
+      "test": 0.5868,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 1,
+      "model": "logreg_full",
+      "test": 0.635,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 1,
+      "model": "mlp16_full",
+      "test": 0.663,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 1,
+      "model": "mlp64_1pass",
+      "test": 0.486,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 1,
+      "model": "mlp64_full",
+      "test": 0.6604,
+      "n_params": 2690,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 2,
+      "model": "mem2k",
+      "test": 0.6336,
+      "n_params": 4000,
+      "sec": 0.3
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 2,
+      "model": "ngram",
+      "test": 0.5632,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 2,
+      "model": "logreg_full",
+      "test": 0.6268,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 2,
+      "model": "mlp16_full",
+      "test": 0.654,
+      "n_params": 674,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 2,
+      "model": "mlp64_1pass",
+      "test": 0.5652,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 2,
+      "model": "mem8k",
+      "test": 0.6362,
+      "n_params": 16000,
+      "sec": 1.9
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 2,
+      "model": "mem8k_shuf",
+      "test": 0.4472,
+      "n_params": 16000,
+      "sec": 1.9
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 2,
+      "model": "mlp64_full",
+      "test": 0.664,
+      "n_params": 2690,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 3,
+      "model": "mem2k",
+      "test": 0.6064,
+      "n_params": 4000,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 3,
+      "model": "ngram",
+      "test": 0.607,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 3,
+      "model": "logreg_full",
+      "test": 0.6068,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 3,
+      "model": "mem8k_shuf",
+      "test": 0.4908,
+      "n_params": 16000,
+      "sec": 0.6
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 3,
+      "model": "mem8k",
+      "test": 0.6248,
+      "n_params": 16000,
+      "sec": 0.6
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 3,
+      "model": "mlp16_full",
+      "test": 0.5902,
+      "n_params": 674,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 3,
+      "model": "mlp64_1pass",
+      "test": 0.5002,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 3,
+      "model": "mlp64_full",
+      "test": 0.6006,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 4,
+      "model": "mem2k",
+      "test": 0.6142,
+      "n_params": 4000,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 4,
+      "model": "ngram",
+      "test": 0.5966,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 4,
+      "model": "logreg_full",
+      "test": 0.6212,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 4,
+      "model": "mem8k",
+      "test": 0.6142,
+      "n_params": 16000,
+      "sec": 0.9
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 4,
+      "model": "mem8k_shuf",
+      "test": 0.5274,
+      "n_params": 16000,
+      "sec": 0.9
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 4,
+      "model": "mlp16_full",
+      "test": 0.6366,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 4,
+      "model": "mlp64_1pass",
+      "test": 0.5742,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 300,
+      "seed": 4,
+      "model": "mlp64_full",
+      "test": 0.6428,
+      "n_params": 2690,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 0,
+      "model": "mem2k",
+      "test": 0.6638,
+      "n_params": 4000,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 0,
+      "model": "mem8k",
+      "test": 0.6662,
+      "n_params": 16000,
+      "sec": 0.5
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 0,
+      "model": "mem8k_shuf",
+      "test": 0.493,
+      "n_params": 16000,
+      "sec": 0.5
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 0,
+      "model": "ngram",
+      "test": 0.6438,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 0,
+      "model": "logreg_full",
+      "test": 0.669,
+      "n_params": 80,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 0,
+      "model": "mlp16_full",
+      "test": 0.6752,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 0,
+      "model": "mlp64_1pass",
+      "test": 0.6202,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 0,
+      "model": "mlp64_full",
+      "test": 0.6748,
+      "n_params": 2690,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 1,
+      "model": "mem2k",
+      "test": 0.6556,
+      "n_params": 4000,
+      "sec": 0.3
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 1,
+      "model": "ngram",
+      "test": 0.6466,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 1,
+      "model": "logreg_full",
+      "test": 0.6404,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 1,
+      "model": "mem8k",
+      "test": 0.6538,
+      "n_params": 16000,
+      "sec": 1.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 1,
+      "model": "mem8k_shuf",
+      "test": 0.4728,
+      "n_params": 16000,
+      "sec": 1.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 1,
+      "model": "mlp16_full",
+      "test": 0.6686,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 1,
+      "model": "mlp64_1pass",
+      "test": 0.517,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 1,
+      "model": "mlp64_full",
+      "test": 0.6652,
+      "n_params": 2690,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 2,
+      "model": "mem2k",
+      "test": 0.6376,
+      "n_params": 4000,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 2,
+      "model": "mem8k",
+      "test": 0.6464,
+      "n_params": 16000,
+      "sec": 0.5
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 2,
+      "model": "mem8k_shuf",
+      "test": 0.516,
+      "n_params": 16000,
+      "sec": 0.6
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 2,
+      "model": "ngram",
+      "test": 0.637,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 2,
+      "model": "logreg_full",
+      "test": 0.6524,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 2,
+      "model": "mlp16_full",
+      "test": 0.669,
+      "n_params": 674,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 2,
+      "model": "mlp64_1pass",
+      "test": 0.6134,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 2,
+      "model": "mlp64_full",
+      "test": 0.667,
+      "n_params": 2690,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 3,
+      "model": "mem2k",
+      "test": 0.6418,
+      "n_params": 4000,
+      "sec": 0.4
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 3,
+      "model": "ngram",
+      "test": 0.641,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 3,
+      "model": "logreg_full",
+      "test": 0.6396,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 3,
+      "model": "mlp16_full",
+      "test": 0.6466,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 3,
+      "model": "mem8k",
+      "test": 0.6416,
+      "n_params": 16000,
+      "sec": 1.4
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 3,
+      "model": "mem8k_shuf",
+      "test": 0.5064,
+      "n_params": 16000,
+      "sec": 1.3
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 3,
+      "model": "mlp64_1pass",
+      "test": 0.6044,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 3,
+      "model": "mlp64_full",
+      "test": 0.648,
+      "n_params": 2690,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 4,
+      "model": "mem2k",
+      "test": 0.6608,
+      "n_params": 4000,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 4,
+      "model": "mem8k",
+      "test": 0.6662,
+      "n_params": 16000,
+      "sec": 0.6
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 4,
+      "model": "ngram",
+      "test": 0.6448,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 4,
+      "model": "mem8k_shuf",
+      "test": 0.528,
+      "n_params": 16000,
+      "sec": 0.6
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 4,
+      "model": "logreg_full",
+      "test": 0.6616,
+      "n_params": 80,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 4,
+      "model": "mlp16_full",
+      "test": 0.6656,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 4,
+      "model": "mlp64_1pass",
+      "test": 0.6118,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 1000,
+      "seed": 4,
+      "model": "mlp64_full",
+      "test": 0.6688,
+      "n_params": 2690,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 0,
+      "model": "mem2k",
+      "test": 0.6568,
+      "n_params": 4000,
+      "sec": 0.4
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 0,
+      "model": "ngram",
+      "test": 0.6604,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 0,
+      "model": "logreg_full",
+      "test": 0.6666,
+      "n_params": 80,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 0,
+      "model": "mlp16_full",
+      "test": 0.6652,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 0,
+      "model": "mem8k",
+      "test": 0.6694,
+      "n_params": 16000,
+      "sec": 1.6
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 0,
+      "model": "mem8k_shuf",
+      "test": 0.5038,
+      "n_params": 16000,
+      "sec": 1.5
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 0,
+      "model": "mlp64_1pass",
+      "test": 0.6474,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 0,
+      "model": "mlp64_full",
+      "test": 0.6694,
+      "n_params": 2690,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 1,
+      "model": "mem2k",
+      "test": 0.6776,
+      "n_params": 4000,
+      "sec": 0.2
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 1,
+      "model": "ngram",
+      "test": 0.6724,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 1,
+      "model": "logreg_full",
+      "test": 0.6704,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 1,
+      "model": "mem8k",
+      "test": 0.675,
+      "n_params": 16000,
+      "sec": 1.3
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 1,
+      "model": "mlp16_full",
+      "test": 0.674,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 1,
+      "model": "mem8k_shuf",
+      "test": 0.4724,
+      "n_params": 16000,
+      "sec": 1.3
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 1,
+      "model": "mlp64_1pass",
+      "test": 0.6394,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 1,
+      "model": "mlp64_full",
+      "test": 0.6742,
+      "n_params": 2690,
+      "sec": 0.2
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 2,
+      "model": "mem2k",
+      "test": 0.6656,
+      "n_params": 4000,
+      "sec": 0.4
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 2,
+      "model": "ngram",
+      "test": 0.667,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 2,
+      "model": "mem8k",
+      "test": 0.673,
+      "n_params": 16000,
+      "sec": 1.2
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 2,
+      "model": "logreg_full",
+      "test": 0.6692,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 2,
+      "model": "mem8k_shuf",
+      "test": 0.502,
+      "n_params": 16000,
+      "sec": 1.0
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 2,
+      "model": "mlp16_full",
+      "test": 0.6712,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 2,
+      "model": "mlp64_1pass",
+      "test": 0.658,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 2,
+      "model": "mlp64_full",
+      "test": 0.6732,
+      "n_params": 2690,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 3,
+      "model": "mem2k",
+      "test": 0.6634,
+      "n_params": 4000,
+      "sec": 0.2
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 3,
+      "model": "ngram",
+      "test": 0.676,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 3,
+      "model": "logreg_full",
+      "test": 0.671,
+      "n_params": 80,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 3,
+      "model": "mlp16_full",
+      "test": 0.6738,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 3,
+      "model": "mlp64_1pass",
+      "test": 0.6274,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 3,
+      "model": "mem8k",
+      "test": 0.6726,
+      "n_params": 16000,
+      "sec": 2.1
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 3,
+      "model": "mem8k_shuf",
+      "test": 0.5198,
+      "n_params": 16000,
+      "sec": 1.9
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 3,
+      "model": "mlp64_full",
+      "test": 0.6666,
+      "n_params": 2690,
+      "sec": 0.2
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 4,
+      "model": "mem2k",
+      "test": 0.6548,
+      "n_params": 4000,
+      "sec": 0.2
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 4,
+      "model": "ngram",
+      "test": 0.667,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 4,
+      "model": "logreg_full",
+      "test": 0.6694,
+      "n_params": 80,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 4,
+      "model": "mem8k_shuf",
+      "test": 0.4992,
+      "n_params": 16000,
+      "sec": 0.8
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 4,
+      "model": "mem8k",
+      "test": 0.675,
+      "n_params": 16000,
+      "sec": 0.8
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 4,
+      "model": "mlp16_full",
+      "test": 0.6674,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 4,
+      "model": "mlp64_1pass",
+      "test": 0.6496,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 3000,
+      "seed": 4,
+      "model": "mlp64_full",
+      "test": 0.6764,
+      "n_params": 2690,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 0,
+      "model": "mem2k",
+      "test": 0.665,
+      "n_params": 4000,
+      "sec": 0.5
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 0,
+      "model": "ngram",
+      "test": 0.6828,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 0,
+      "model": "logreg_full",
+      "test": 0.6688,
+      "n_params": 80,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 0,
+      "model": "mlp16_full",
+      "test": 0.6688,
+      "n_params": 674,
+      "sec": 0.2
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 0,
+      "model": "mlp64_1pass",
+      "test": 0.6712,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 0,
+      "model": "mlp64_full",
+      "test": 0.666,
+      "n_params": 2690,
+      "sec": 0.2
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 0,
+      "model": "mem8k",
+      "test": 0.6776,
+      "n_params": 16000,
+      "sec": 2.8
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 0,
+      "model": "mem8k_shuf",
+      "test": 0.5274,
+      "n_params": 16000,
+      "sec": 2.5
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 1,
+      "model": "mem2k",
+      "test": 0.6776,
+      "n_params": 4000,
+      "sec": 0.6
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 1,
+      "model": "ngram",
+      "test": 0.6936,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 1,
+      "model": "logreg_full",
+      "test": 0.6766,
+      "n_params": 80,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 1,
+      "model": "mlp16_full",
+      "test": 0.6752,
+      "n_params": 674,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 1,
+      "model": "mlp64_1pass",
+      "test": 0.6794,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 1,
+      "model": "mlp64_full",
+      "test": 0.688,
+      "n_params": 2690,
+      "sec": 0.6
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 1,
+      "model": "mem8k",
+      "test": 0.6864,
+      "n_params": 16000,
+      "sec": 2.9
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 1,
+      "model": "mem8k_shuf",
+      "test": 0.505,
+      "n_params": 16000,
+      "sec": 2.9
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 2,
+      "model": "mem2k",
+      "test": 0.6716,
+      "n_params": 4000,
+      "sec": 0.6
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 2,
+      "model": "ngram",
+      "test": 0.6788,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 2,
+      "model": "logreg_full",
+      "test": 0.6748,
+      "n_params": 80,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 2,
+      "model": "mlp16_full",
+      "test": 0.6766,
+      "n_params": 674,
+      "sec": 0.2
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 2,
+      "model": "mlp64_1pass",
+      "test": 0.6704,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 2,
+      "model": "mem8k",
+      "test": 0.6812,
+      "n_params": 16000,
+      "sec": 2.4
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 2,
+      "model": "mlp64_full",
+      "test": 0.6742,
+      "n_params": 2690,
+      "sec": 0.2
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 2,
+      "model": "mem8k_shuf",
+      "test": 0.5002,
+      "n_params": 16000,
+      "sec": 2.9
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 3,
+      "model": "mem2k",
+      "test": 0.6718,
+      "n_params": 4000,
+      "sec": 0.8
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 3,
+      "model": "ngram",
+      "test": 0.6956,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 3,
+      "model": "logreg_full",
+      "test": 0.6688,
+      "n_params": 80,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 3,
+      "model": "mlp16_full",
+      "test": 0.6806,
+      "n_params": 674,
+      "sec": 0.2
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 3,
+      "model": "mlp64_1pass",
+      "test": 0.6688,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 3,
+      "model": "mlp64_full",
+      "test": 0.6778,
+      "n_params": 2690,
+      "sec": 0.2
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 3,
+      "model": "mem8k",
+      "test": 0.6866,
+      "n_params": 16000,
+      "sec": 2.8
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 3,
+      "model": "mem8k_shuf",
+      "test": 0.4796,
+      "n_params": 16000,
+      "sec": 2.9
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 4,
+      "model": "mem2k",
+      "test": 0.6666,
+      "n_params": 4000,
+      "sec": 0.5
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 4,
+      "model": "ngram",
+      "test": 0.6876,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 4,
+      "model": "logreg_full",
+      "test": 0.6716,
+      "n_params": 80,
+      "sec": 0.2
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 4,
+      "model": "mlp64_1pass",
+      "test": 0.6696,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 4,
+      "model": "mlp16_full",
+      "test": 0.6896,
+      "n_params": 674,
+      "sec": 0.5
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 4,
+      "model": "mem8k",
+      "test": 0.6896,
+      "n_params": 16000,
+      "sec": 2.6
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 4,
+      "model": "mem8k_shuf",
+      "test": 0.4648,
+      "n_params": 16000,
+      "sec": 2.6
+    },
+    {
+      "task": "content",
+      "n": 10000,
+      "seed": 4,
+      "model": "mlp64_full",
+      "test": 0.6938,
+      "n_params": 2690,
+      "sec": 1.1
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 0,
+      "model": "mem2k",
+      "test": 0.67,
+      "n_params": 4000,
+      "sec": 0.9
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 0,
+      "model": "ngram",
+      "test": 0.693,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 0,
+      "model": "logreg_full",
+      "test": 0.6682,
+      "n_params": 80,
+      "sec": 0.2
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 0,
+      "model": "mlp16_full",
+      "test": 0.6702,
+      "n_params": 674,
+      "sec": 0.2
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 0,
+      "model": "mlp64_1pass",
+      "test": 0.669,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 0,
+      "model": "mlp64_full",
+      "test": 0.6924,
+      "n_params": 2690,
+      "sec": 1.2
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 0,
+      "model": "mem8k",
+      "test": 0.6856,
+      "n_params": 16000,
+      "sec": 4.1
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 1,
+      "model": "mem2k",
+      "test": 0.6758,
+      "n_params": 4000,
+      "sec": 1.2
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 0,
+      "model": "mem8k_shuf",
+      "test": 0.4966,
+      "n_params": 16000,
+      "sec": 4.2
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 1,
+      "model": "ngram",
+      "test": 0.697,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 1,
+      "model": "logreg_full",
+      "test": 0.675,
+      "n_params": 80,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 1,
+      "model": "mlp64_1pass",
+      "test": 0.6704,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 1,
+      "model": "mlp16_full",
+      "test": 0.6926,
+      "n_params": 674,
+      "sec": 0.7
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 1,
+      "model": "mlp64_full",
+      "test": 0.6966,
+      "n_params": 2690,
+      "sec": 1.1
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 1,
+      "model": "mem8k",
+      "test": 0.6944,
+      "n_params": 16000,
+      "sec": 3.7
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 1,
+      "model": "mem8k_shuf",
+      "test": 0.51,
+      "n_params": 16000,
+      "sec": 3.7
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 2,
+      "model": "mem2k",
+      "test": 0.672,
+      "n_params": 4000,
+      "sec": 1.3
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 2,
+      "model": "ngram",
+      "test": 0.692,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 2,
+      "model": "logreg_full",
+      "test": 0.6742,
+      "n_params": 80,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 2,
+      "model": "mlp64_1pass",
+      "test": 0.667,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 2,
+      "model": "mlp16_full",
+      "test": 0.6956,
+      "n_params": 674,
+      "sec": 1.0
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 2,
+      "model": "mlp64_full",
+      "test": 0.6938,
+      "n_params": 2690,
+      "sec": 1.4
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 2,
+      "model": "mem8k",
+      "test": 0.6906,
+      "n_params": 16000,
+      "sec": 3.8
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 2,
+      "model": "mem8k_shuf",
+      "test": 0.5008,
+      "n_params": 16000,
+      "sec": 3.8
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 3,
+      "model": "mem2k",
+      "test": 0.6756,
+      "n_params": 4000,
+      "sec": 1.0
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 3,
+      "model": "ngram",
+      "test": 0.6992,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 3,
+      "model": "logreg_full",
+      "test": 0.6716,
+      "n_params": 80,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 3,
+      "model": "mlp64_1pass",
+      "test": 0.6682,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 3,
+      "model": "mlp16_full",
+      "test": 0.6994,
+      "n_params": 674,
+      "sec": 0.6
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 3,
+      "model": "mlp64_full",
+      "test": 0.6966,
+      "n_params": 2690,
+      "sec": 1.0
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 4,
+      "model": "mem2k",
+      "test": 0.6734,
+      "n_params": 4000,
+      "sec": 1.0
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 3,
+      "model": "mem8k_shuf",
+      "test": 0.5484,
+      "n_params": 16000,
+      "sec": 4.0
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 3,
+      "model": "mem8k",
+      "test": 0.6912,
+      "n_params": 16000,
+      "sec": 4.2
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 4,
+      "model": "ngram",
+      "test": 0.7,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 4,
+      "model": "logreg_full",
+      "test": 0.669,
+      "n_params": 80,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 4,
+      "model": "mlp64_1pass",
+      "test": 0.6662,
+      "n_params": 2690,
+      "sec": 0.0
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 4,
+      "model": "mlp16_full",
+      "test": 0.6992,
+      "n_params": 674,
+      "sec": 0.6
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 0,
+      "model": "mem2k",
+      "test": 0.2744,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 4,
+      "model": "mem8k",
+      "test": 0.6904,
+      "n_params": 16000,
+      "sec": 3.8
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 4,
+      "model": "mem8k_shuf",
+      "test": 0.5052,
+      "n_params": 16000,
+      "sec": 3.9
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 0,
+      "model": "mem8k",
+      "test": 0.2558,
+      "n_params": 96000,
+      "sec": 0.4
+    },
+    {
+      "task": "content",
+      "n": 20000,
+      "seed": 4,
+      "model": "mlp64_full",
+      "test": 0.7,
+      "n_params": 2690,
+      "sec": 1.9
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 0,
+      "model": "ngram",
+      "test": 0.258,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 0,
+      "model": "logreg_full",
+      "test": 0.2722,
+      "n_params": 480,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 0,
+      "model": "mem8k_shuf",
+      "test": 0.1162,
+      "n_params": 96000,
+      "sec": 1.1
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 0,
+      "model": "mlp16_full",
+      "test": 0.2908,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 0,
+      "model": "mlp64_1pass",
+      "test": 0.1024,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 0,
+      "model": "mlp64_full",
+      "test": 0.2906,
+      "n_params": 3340,
+      "sec": 0.2
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 1,
+      "model": "mem2k",
+      "test": 0.2858,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 1,
+      "model": "mem8k",
+      "test": 0.2646,
+      "n_params": 96000,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 1,
+      "model": "ngram",
+      "test": 0.2474,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 1,
+      "model": "logreg_full",
+      "test": 0.239,
+      "n_params": 480,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 1,
+      "model": "mem8k_shuf",
+      "test": 0.1368,
+      "n_params": 96000,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 1,
+      "model": "mlp64_1pass",
+      "test": 0.0882,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 1,
+      "model": "mlp16_full",
+      "test": 0.284,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 1,
+      "model": "mlp64_full",
+      "test": 0.2934,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 2,
+      "model": "mem2k",
+      "test": 0.2204,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 2,
+      "model": "ngram",
+      "test": 0.2398,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 2,
+      "model": "logreg_full",
+      "test": 0.2468,
+      "n_params": 480,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 2,
+      "model": "mem8k",
+      "test": 0.2122,
+      "n_params": 96000,
+      "sec": 0.7
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 2,
+      "model": "mem8k_shuf",
+      "test": 0.1174,
+      "n_params": 96000,
+      "sec": 0.7
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 2,
+      "model": "mlp16_full",
+      "test": 0.2396,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 2,
+      "model": "mlp64_1pass",
+      "test": 0.083,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 2,
+      "model": "mlp64_full",
+      "test": 0.2614,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 3,
+      "model": "mem2k",
+      "test": 0.2672,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 3,
+      "model": "ngram",
+      "test": 0.2516,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 3,
+      "model": "logreg_full",
+      "test": 0.2588,
+      "n_params": 480,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 3,
+      "model": "mem8k",
+      "test": 0.2424,
+      "n_params": 96000,
+      "sec": 0.6
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 3,
+      "model": "mem8k_shuf",
+      "test": 0.1858,
+      "n_params": 96000,
+      "sec": 0.6
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 3,
+      "model": "mlp16_full",
+      "test": 0.2616,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 3,
+      "model": "mlp64_1pass",
+      "test": 0.0872,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 3,
+      "model": "mlp64_full",
+      "test": 0.2608,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 4,
+      "model": "mem2k",
+      "test": 0.2536,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 4,
+      "model": "ngram",
+      "test": 0.2494,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 4,
+      "model": "logreg_full",
+      "test": 0.28,
+      "n_params": 480,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 4,
+      "model": "mem8k",
+      "test": 0.2082,
+      "n_params": 96000,
+      "sec": 0.6
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 4,
+      "model": "mem8k_shuf",
+      "test": 0.175,
+      "n_params": 96000,
+      "sec": 0.6
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 4,
+      "model": "mlp64_1pass",
+      "test": 0.0652,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 4,
+      "model": "mlp16_full",
+      "test": 0.2574,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 50,
+      "seed": 4,
+      "model": "mlp64_full",
+      "test": 0.2778,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 0,
+      "model": "mem2k",
+      "test": 0.2778,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 0,
+      "model": "ngram",
+      "test": 0.2604,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 0,
+      "model": "logreg_full",
+      "test": 0.2668,
+      "n_params": 480,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 0,
+      "model": "mem8k",
+      "test": 0.2694,
+      "n_params": 96000,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 0,
+      "model": "mem8k_shuf",
+      "test": 0.14,
+      "n_params": 96000,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 0,
+      "model": "mlp16_full",
+      "test": 0.282,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 0,
+      "model": "mlp64_1pass",
+      "test": 0.1114,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 0,
+      "model": "mlp64_full",
+      "test": 0.2934,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 1,
+      "model": "mem2k",
+      "test": 0.3082,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 1,
+      "model": "ngram",
+      "test": 0.268,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 1,
+      "model": "logreg_full",
+      "test": 0.2674,
+      "n_params": 480,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 1,
+      "model": "mem8k",
+      "test": 0.2848,
+      "n_params": 96000,
+      "sec": 0.7
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 1,
+      "model": "mem8k_shuf",
+      "test": 0.1488,
+      "n_params": 96000,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 1,
+      "model": "mlp16_full",
+      "test": 0.306,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 1,
+      "model": "mlp64_1pass",
+      "test": 0.0892,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 1,
+      "model": "mlp64_full",
+      "test": 0.311,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 2,
+      "model": "mem2k",
+      "test": 0.263,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 2,
+      "model": "ngram",
+      "test": 0.2422,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 2,
+      "model": "logreg_full",
+      "test": 0.2782,
+      "n_params": 480,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 2,
+      "model": "mem8k",
+      "test": 0.2608,
+      "n_params": 96000,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 2,
+      "model": "mem8k_shuf",
+      "test": 0.1514,
+      "n_params": 96000,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 2,
+      "model": "mlp16_full",
+      "test": 0.2944,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 2,
+      "model": "mlp64_1pass",
+      "test": 0.0932,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 2,
+      "model": "mlp64_full",
+      "test": 0.3044,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 3,
+      "model": "mem2k",
+      "test": 0.2668,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 3,
+      "model": "ngram",
+      "test": 0.2478,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 3,
+      "model": "logreg_full",
+      "test": 0.2638,
+      "n_params": 480,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 3,
+      "model": "mem8k",
+      "test": 0.25,
+      "n_params": 96000,
+      "sec": 0.5
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 3,
+      "model": "mem8k_shuf",
+      "test": 0.1602,
+      "n_params": 96000,
+      "sec": 0.5
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 3,
+      "model": "mlp16_full",
+      "test": 0.2728,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 3,
+      "model": "mlp64_1pass",
+      "test": 0.0858,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 3,
+      "model": "mlp64_full",
+      "test": 0.2984,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 4,
+      "model": "mem2k",
+      "test": 0.282,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 4,
+      "model": "ngram",
+      "test": 0.2462,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 4,
+      "model": "logreg_full",
+      "test": 0.2904,
+      "n_params": 480,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 4,
+      "model": "mem8k",
+      "test": 0.2646,
+      "n_params": 96000,
+      "sec": 1.0
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 4,
+      "model": "mem8k_shuf",
+      "test": 0.1578,
+      "n_params": 96000,
+      "sec": 1.0
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 4,
+      "model": "mlp16_full",
+      "test": 0.2792,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 4,
+      "model": "mlp64_1pass",
+      "test": 0.0722,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 100,
+      "seed": 4,
+      "model": "mlp64_full",
+      "test": 0.2994,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 0,
+      "model": "mem2k",
+      "test": 0.31,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 0,
+      "model": "mem8k",
+      "test": 0.3128,
+      "n_params": 96000,
+      "sec": 0.5
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 0,
+      "model": "mem8k_shuf",
+      "test": 0.1892,
+      "n_params": 96000,
+      "sec": 0.5
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 0,
+      "model": "ngram",
+      "test": 0.2784,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 0,
+      "model": "logreg_full",
+      "test": 0.297,
+      "n_params": 480,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 0,
+      "model": "mlp64_1pass",
+      "test": 0.1684,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 0,
+      "model": "mlp16_full",
+      "test": 0.3242,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 0,
+      "model": "mlp64_full",
+      "test": 0.3248,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 1,
+      "model": "mem2k",
+      "test": 0.3316,
+      "n_params": 24000,
+      "sec": 0.3
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 1,
+      "model": "ngram",
+      "test": 0.2884,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 1,
+      "model": "logreg_full",
+      "test": 0.3082,
+      "n_params": 480,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 1,
+      "model": "mem8k_shuf",
+      "test": 0.1304,
+      "n_params": 96000,
+      "sec": 1.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 1,
+      "model": "mem8k",
+      "test": 0.3194,
+      "n_params": 96000,
+      "sec": 1.2
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 1,
+      "model": "mlp16_full",
+      "test": 0.3348,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 1,
+      "model": "mlp64_1pass",
+      "test": 0.1184,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 1,
+      "model": "mlp64_full",
+      "test": 0.3394,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 2,
+      "model": "mem2k",
+      "test": 0.3254,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 2,
+      "model": "mem8k",
+      "test": 0.291,
+      "n_params": 96000,
+      "sec": 0.5
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 2,
+      "model": "mem8k_shuf",
+      "test": 0.1408,
+      "n_params": 96000,
+      "sec": 0.5
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 2,
+      "model": "ngram",
+      "test": 0.2674,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 2,
+      "model": "logreg_full",
+      "test": 0.3428,
+      "n_params": 480,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 2,
+      "model": "mlp16_full",
+      "test": 0.3558,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 2,
+      "model": "mlp64_1pass",
+      "test": 0.1372,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 2,
+      "model": "mlp64_full",
+      "test": 0.3482,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 3,
+      "model": "mem2k",
+      "test": 0.3108,
+      "n_params": 24000,
+      "sec": 0.3
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 3,
+      "model": "ngram",
+      "test": 0.268,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 3,
+      "model": "logreg_full",
+      "test": 0.315,
+      "n_params": 480,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 3,
+      "model": "mem8k",
+      "test": 0.293,
+      "n_params": 96000,
+      "sec": 1.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 3,
+      "model": "mem8k_shuf",
+      "test": 0.1742,
+      "n_params": 96000,
+      "sec": 0.9
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 3,
+      "model": "mlp16_full",
+      "test": 0.3294,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 3,
+      "model": "mlp64_1pass",
+      "test": 0.1182,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 3,
+      "model": "mlp64_full",
+      "test": 0.3192,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 4,
+      "model": "mem2k",
+      "test": 0.3042,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 4,
+      "model": "mem8k",
+      "test": 0.283,
+      "n_params": 96000,
+      "sec": 0.5
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 4,
+      "model": "ngram",
+      "test": 0.2812,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 4,
+      "model": "logreg_full",
+      "test": 0.3032,
+      "n_params": 480,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 4,
+      "model": "mem8k_shuf",
+      "test": 0.1736,
+      "n_params": 96000,
+      "sec": 0.7
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 4,
+      "model": "mlp16_full",
+      "test": 0.3414,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 4,
+      "model": "mlp64_1pass",
+      "test": 0.0976,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 300,
+      "seed": 4,
+      "model": "mlp64_full",
+      "test": 0.3416,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 0,
+      "model": "mem2k",
+      "test": 0.354,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 0,
+      "model": "ngram",
+      "test": 0.3362,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 0,
+      "model": "logreg_full",
+      "test": 0.3384,
+      "n_params": 480,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 0,
+      "model": "mem8k",
+      "test": 0.3626,
+      "n_params": 96000,
+      "sec": 0.9
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 0,
+      "model": "mem8k_shuf",
+      "test": 0.1994,
+      "n_params": 96000,
+      "sec": 0.9
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 0,
+      "model": "mlp16_full",
+      "test": 0.3752,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 0,
+      "model": "mlp64_1pass",
+      "test": 0.275,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 0,
+      "model": "mlp64_full",
+      "test": 0.3668,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 1,
+      "model": "mem2k",
+      "test": 0.3458,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 1,
+      "model": "ngram",
+      "test": 0.3062,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 1,
+      "model": "logreg_full",
+      "test": 0.3158,
+      "n_params": 480,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 1,
+      "model": "mem8k",
+      "test": 0.3344,
+      "n_params": 96000,
+      "sec": 1.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 1,
+      "model": "mem8k_shuf",
+      "test": 0.1866,
+      "n_params": 96000,
+      "sec": 1.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 1,
+      "model": "mlp16_full",
+      "test": 0.3564,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 1,
+      "model": "mlp64_1pass",
+      "test": 0.242,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 1,
+      "model": "mlp64_full",
+      "test": 0.3462,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 2,
+      "model": "mem2k",
+      "test": 0.3382,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 2,
+      "model": "ngram",
+      "test": 0.3182,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 2,
+      "model": "logreg_full",
+      "test": 0.3816,
+      "n_params": 480,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 2,
+      "model": "mem8k",
+      "test": 0.3428,
+      "n_params": 96000,
+      "sec": 1.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 2,
+      "model": "mem8k_shuf",
+      "test": 0.1874,
+      "n_params": 96000,
+      "sec": 1.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 2,
+      "model": "mlp16_full",
+      "test": 0.3784,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 2,
+      "model": "mlp64_1pass",
+      "test": 0.2392,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 2,
+      "model": "mlp64_full",
+      "test": 0.3834,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 3,
+      "model": "mem2k",
+      "test": 0.3382,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 3,
+      "model": "mem8k",
+      "test": 0.3374,
+      "n_params": 96000,
+      "sec": 0.6
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 3,
+      "model": "ngram",
+      "test": 0.3048,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 3,
+      "model": "logreg_full",
+      "test": 0.3264,
+      "n_params": 480,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 3,
+      "model": "mem8k_shuf",
+      "test": 0.1572,
+      "n_params": 96000,
+      "sec": 0.6
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 3,
+      "model": "mlp16_full",
+      "test": 0.3578,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 3,
+      "model": "mlp64_1pass",
+      "test": 0.2604,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 3,
+      "model": "mlp64_full",
+      "test": 0.3662,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 4,
+      "model": "mem2k",
+      "test": 0.3426,
+      "n_params": 24000,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 4,
+      "model": "ngram",
+      "test": 0.3302,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 4,
+      "model": "logreg_full",
+      "test": 0.3586,
+      "n_params": 480,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 4,
+      "model": "mlp16_full",
+      "test": 0.3714,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 4,
+      "model": "mem8k",
+      "test": 0.3514,
+      "n_params": 96000,
+      "sec": 1.2
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 4,
+      "model": "mem8k_shuf",
+      "test": 0.2038,
+      "n_params": 96000,
+      "sec": 1.1
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 4,
+      "model": "mlp64_1pass",
+      "test": 0.2336,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 1000,
+      "seed": 4,
+      "model": "mlp64_full",
+      "test": 0.372,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 0,
+      "model": "mem2k",
+      "test": 0.375,
+      "n_params": 24000,
+      "sec": 0.2
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 0,
+      "model": "mem8k",
+      "test": 0.3898,
+      "n_params": 96000,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 0,
+      "model": "ngram",
+      "test": 0.3628,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 0,
+      "model": "mem8k_shuf",
+      "test": 0.2124,
+      "n_params": 96000,
+      "sec": 1.1
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 0,
+      "model": "logreg_full",
+      "test": 0.3766,
+      "n_params": 480,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 0,
+      "model": "mlp64_1pass",
+      "test": 0.335,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 0,
+      "model": "mlp16_full",
+      "test": 0.39,
+      "n_params": 844,
+      "sec": 0.2
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 0,
+      "model": "mlp64_full",
+      "test": 0.3798,
+      "n_params": 3340,
+      "sec": 0.2
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 1,
+      "model": "mem2k",
+      "test": 0.3542,
+      "n_params": 24000,
+      "sec": 0.2
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 1,
+      "model": "ngram",
+      "test": 0.3438,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 1,
+      "model": "logreg_full",
+      "test": 0.3676,
+      "n_params": 480,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 1,
+      "model": "mlp16_full",
+      "test": 0.372,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 1,
+      "model": "mlp64_1pass",
+      "test": 0.3054,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 1,
+      "model": "mem8k_shuf",
+      "test": 0.2158,
+      "n_params": 96000,
+      "sec": 1.6
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 1,
+      "model": "mem8k",
+      "test": 0.3654,
+      "n_params": 96000,
+      "sec": 1.7
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 1,
+      "model": "mlp64_full",
+      "test": 0.3706,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 2,
+      "model": "mem2k",
+      "test": 0.3476,
+      "n_params": 24000,
+      "sec": 0.2
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 2,
+      "model": "ngram",
+      "test": 0.3536,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 2,
+      "model": "logreg_full",
+      "test": 0.3794,
+      "n_params": 480,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 2,
+      "model": "mem8k",
+      "test": 0.3722,
+      "n_params": 96000,
+      "sec": 1.3
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 2,
+      "model": "mem8k_shuf",
+      "test": 0.2282,
+      "n_params": 96000,
+      "sec": 1.3
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 2,
+      "model": "mlp16_full",
+      "test": 0.379,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 2,
+      "model": "mlp64_1pass",
+      "test": 0.303,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 2,
+      "model": "mlp64_full",
+      "test": 0.3826,
+      "n_params": 3340,
+      "sec": 0.3
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 3,
+      "model": "mem2k",
+      "test": 0.3592,
+      "n_params": 24000,
+      "sec": 0.2
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 3,
+      "model": "ngram",
+      "test": 0.345,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 3,
+      "model": "logreg_full",
+      "test": 0.3728,
+      "n_params": 480,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 3,
+      "model": "mem8k",
+      "test": 0.373,
+      "n_params": 96000,
+      "sec": 1.5
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 3,
+      "model": "mem8k_shuf",
+      "test": 0.2248,
+      "n_params": 96000,
+      "sec": 1.5
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 3,
+      "model": "mlp64_1pass",
+      "test": 0.3342,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 3,
+      "model": "mlp16_full",
+      "test": 0.3784,
+      "n_params": 844,
+      "sec": 0.2
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 3,
+      "model": "mlp64_full",
+      "test": 0.3784,
+      "n_params": 3340,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 4,
+      "model": "mem2k",
+      "test": 0.3528,
+      "n_params": 24000,
+      "sec": 0.7
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 4,
+      "model": "ngram",
+      "test": 0.3468,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 4,
+      "model": "mem8k",
+      "test": 0.3796,
+      "n_params": 96000,
+      "sec": 1.5
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 4,
+      "model": "mem8k_shuf",
+      "test": 0.2316,
+      "n_params": 96000,
+      "sec": 1.5
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 4,
+      "model": "logreg_full",
+      "test": 0.3854,
+      "n_params": 480,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 4,
+      "model": "mlp16_full",
+      "test": 0.3884,
+      "n_params": 844,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 4,
+      "model": "mlp64_1pass",
+      "test": 0.3136,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 3000,
+      "seed": 4,
+      "model": "mlp64_full",
+      "test": 0.3858,
+      "n_params": 3340,
+      "sec": 0.2
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 0,
+      "model": "ngram",
+      "test": 0.3892,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 0,
+      "model": "mem2k",
+      "test": 0.36,
+      "n_params": 24000,
+      "sec": 1.0
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 0,
+      "model": "logreg_full",
+      "test": 0.3852,
+      "n_params": 480,
+      "sec": 0.3
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 0,
+      "model": "mlp16_full",
+      "test": 0.3938,
+      "n_params": 844,
+      "sec": 0.4
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 0,
+      "model": "mlp64_1pass",
+      "test": 0.3854,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 0,
+      "model": "mem8k",
+      "test": 0.3984,
+      "n_params": 96000,
+      "sec": 3.2
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 0,
+      "model": "mlp64_full",
+      "test": 0.388,
+      "n_params": 3340,
+      "sec": 0.3
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 0,
+      "model": "mem8k_shuf",
+      "test": 0.2414,
+      "n_params": 96000,
+      "sec": 2.7
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 1,
+      "model": "mem2k",
+      "test": 0.3522,
+      "n_params": 24000,
+      "sec": 0.5
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 1,
+      "model": "ngram",
+      "test": 0.3732,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 1,
+      "model": "mlp16_full",
+      "test": 0.3798,
+      "n_params": 844,
+      "sec": 0.2
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 1,
+      "model": "logreg_full",
+      "test": 0.378,
+      "n_params": 480,
+      "sec": 0.2
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 1,
+      "model": "mlp64_1pass",
+      "test": 0.3726,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 1,
+      "model": "mlp64_full",
+      "test": 0.3882,
+      "n_params": 3340,
+      "sec": 0.4
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 1,
+      "model": "mem8k",
+      "test": 0.3766,
+      "n_params": 96000,
+      "sec": 3.2
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 1,
+      "model": "mem8k_shuf",
+      "test": 0.227,
+      "n_params": 96000,
+      "sec": 3.0
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 2,
+      "model": "mem2k",
+      "test": 0.3554,
+      "n_params": 24000,
+      "sec": 0.5
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 2,
+      "model": "ngram",
+      "test": 0.3808,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 2,
+      "model": "logreg_full",
+      "test": 0.3868,
+      "n_params": 480,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 2,
+      "model": "mlp64_1pass",
+      "test": 0.3768,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 2,
+      "model": "mlp16_full",
+      "test": 0.3924,
+      "n_params": 844,
+      "sec": 0.4
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 2,
+      "model": "mem8k",
+      "test": 0.3872,
+      "n_params": 96000,
+      "sec": 2.6
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 2,
+      "model": "mem8k_shuf",
+      "test": 0.2306,
+      "n_params": 96000,
+      "sec": 2.2
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 2,
+      "model": "mlp64_full",
+      "test": 0.3884,
+      "n_params": 3340,
+      "sec": 0.4
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 3,
+      "model": "mem2k",
+      "test": 0.3538,
+      "n_params": 24000,
+      "sec": 0.5
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 3,
+      "model": "ngram",
+      "test": 0.3778,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 3,
+      "model": "logreg_full",
+      "test": 0.3816,
+      "n_params": 480,
+      "sec": 0.3
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 3,
+      "model": "mlp16_full",
+      "test": 0.3872,
+      "n_params": 844,
+      "sec": 0.4
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 3,
+      "model": "mlp64_1pass",
+      "test": 0.3746,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 3,
+      "model": "mem8k",
+      "test": 0.3888,
+      "n_params": 96000,
+      "sec": 2.7
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 3,
+      "model": "mem8k_shuf",
+      "test": 0.2378,
+      "n_params": 96000,
+      "sec": 2.6
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 3,
+      "model": "mlp64_full",
+      "test": 0.3862,
+      "n_params": 3340,
+      "sec": 0.3
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 4,
+      "model": "mem2k",
+      "test": 0.353,
+      "n_params": 24000,
+      "sec": 0.5
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 4,
+      "model": "ngram",
+      "test": 0.3896,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 4,
+      "model": "logreg_full",
+      "test": 0.384,
+      "n_params": 480,
+      "sec": 0.1
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 4,
+      "model": "mlp64_1pass",
+      "test": 0.3726,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 4,
+      "model": "mlp16_full",
+      "test": 0.4012,
+      "n_params": 844,
+      "sec": 0.4
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 4,
+      "model": "mlp64_full",
+      "test": 0.3906,
+      "n_params": 3340,
+      "sec": 0.4
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 4,
+      "model": "mem8k",
+      "test": 0.3918,
+      "n_params": 96000,
+      "sec": 2.8
+    },
+    {
+      "task": "tag12",
+      "n": 10000,
+      "seed": 4,
+      "model": "mem8k_shuf",
+      "test": 0.2432,
+      "n_params": 96000,
+      "sec": 2.9
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 0,
+      "model": "mem2k",
+      "test": 0.368,
+      "n_params": 24000,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 0,
+      "model": "ngram",
+      "test": 0.4064,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 0,
+      "model": "logreg_full",
+      "test": 0.3866,
+      "n_params": 480,
+      "sec": 0.3
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 0,
+      "model": "mlp16_full",
+      "test": 0.3972,
+      "n_params": 844,
+      "sec": 0.3
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 0,
+      "model": "mlp64_1pass",
+      "test": 0.3828,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 1,
+      "model": "mem2k",
+      "test": 0.358,
+      "n_params": 24000,
+      "sec": 1.1
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 0,
+      "model": "mlp64_full",
+      "test": 0.4,
+      "n_params": 3340,
+      "sec": 1.5
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 0,
+      "model": "mem8k_shuf",
+      "test": 0.24,
+      "n_params": 96000,
+      "sec": 4.5
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 0,
+      "model": "mem8k",
+      "test": 0.4024,
+      "n_params": 96000,
+      "sec": 4.6
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 1,
+      "model": "ngram",
+      "test": 0.3848,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 1,
+      "model": "logreg_full",
+      "test": 0.3842,
+      "n_params": 480,
+      "sec": 0.3
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 1,
+      "model": "mlp64_1pass",
+      "test": 0.3768,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 1,
+      "model": "mlp16_full",
+      "test": 0.3814,
+      "n_params": 844,
+      "sec": 0.3
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 2,
+      "model": "mem2k",
+      "test": 0.3556,
+      "n_params": 24000,
+      "sec": 0.8
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 1,
+      "model": "mlp64_full",
+      "test": 0.3928,
+      "n_params": 3340,
+      "sec": 1.0
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 1,
+      "model": "mem8k",
+      "test": 0.382,
+      "n_params": 96000,
+      "sec": 5.7
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 1,
+      "model": "mem8k_shuf",
+      "test": 0.2354,
+      "n_params": 96000,
+      "sec": 5.7
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 2,
+      "model": "ngram",
+      "test": 0.3912,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 2,
+      "model": "logreg_full",
+      "test": 0.384,
+      "n_params": 480,
+      "sec": 0.2
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 2,
+      "model": "mlp64_1pass",
+      "test": 0.3826,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 2,
+      "model": "mlp16_full",
+      "test": 0.3932,
+      "n_params": 844,
+      "sec": 0.7
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 2,
+      "model": "mem8k",
+      "test": 0.386,
+      "n_params": 96000,
+      "sec": 4.2
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 2,
+      "model": "mem8k_shuf",
+      "test": 0.232,
+      "n_params": 96000,
+      "sec": 4.4
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 2,
+      "model": "mlp64_full",
+      "test": 0.4022,
+      "n_params": 3340,
+      "sec": 1.2
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 3,
+      "model": "mem2k",
+      "test": 0.3582,
+      "n_params": 24000,
+      "sec": 0.9
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 3,
+      "model": "ngram",
+      "test": 0.3874,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 3,
+      "model": "logreg_full",
+      "test": 0.3826,
+      "n_params": 480,
+      "sec": 0.2
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 3,
+      "model": "mlp64_1pass",
+      "test": 0.381,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 3,
+      "model": "mlp16_full",
+      "test": 0.393,
+      "n_params": 844,
+      "sec": 1.1
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 3,
+      "model": "mlp64_full",
+      "test": 0.3972,
+      "n_params": 3340,
+      "sec": 0.9
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 3,
+      "model": "mem8k",
+      "test": 0.3874,
+      "n_params": 96000,
+      "sec": 4.2
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 3,
+      "model": "mem8k_shuf",
+      "test": 0.2368,
+      "n_params": 96000,
+      "sec": 4.2
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 4,
+      "model": "mem2k",
+      "test": 0.3556,
+      "n_params": 24000,
+      "sec": 0.9
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 4,
+      "model": "ngram",
+      "test": 0.4086,
+      "n_params": null,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 4,
+      "model": "logreg_full",
+      "test": 0.39,
+      "n_params": 480,
+      "sec": 0.2
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 4,
+      "model": "mlp16_full",
+      "test": 0.4022,
+      "n_params": 844,
+      "sec": 0.4
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 4,
+      "model": "mlp64_1pass",
+      "test": 0.3872,
+      "n_params": 3340,
+      "sec": 0.0
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 4,
+      "model": "mem8k",
+      "test": 0.4032,
+      "n_params": 96000,
+      "sec": 3.9
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 4,
+      "model": "mem8k_shuf",
+      "test": 0.2422,
+      "n_params": 96000,
+      "sec": 4.0
+    },
+    {
+      "task": "tag12",
+      "n": 20000,
+      "seed": 4,
+      "model": "mlp64_full",
+      "test": 0.415,
+      "n_params": 3340,
+      "sec": 1.9
+    }
+  ],
+  "summary": {
+    "content/mem2k/50": [
+      57.94,
+      1.0002399712069079
+    ],
+    "content/mem2k/100": [
+      59.736000000000004,
+      1.279087174511575
+    ],
+    "content/mem2k/300": [
+      62.408,
+      1.1540953166874912
+    ],
+    "content/mem2k/1000": [
+      65.19200000000001,
+      1.0401999807729305
+    ],
+    "content/mem2k/3000": [
+      66.364,
+      0.8046266214835249
+    ],
+    "content/mem2k/10000": [
+      67.05199999999999,
+      0.4444502221846643
+    ],
+    "content/mem2k/20000": [
+      67.33599999999998,
+      0.21959963570097263
+    ],
+    "content/mem8k/50": [
+      57.827999999999996,
+      1.6221763159410223
+    ],
+    "content/mem8k/100": [
+      59.74400000000001,
+      1.4636611629745446
+    ],
+    "content/mem8k/300": [
+      62.852,
+      0.8184473104604846
+    ],
+    "content/mem8k/1000": [
+      65.484,
+      1.0056957790505066
+    ],
+    "content/mem8k/3000": [
+      67.3,
+      0.20552372125864324
+    ],
+    "content/mem8k/10000": [
+      68.42799999999998,
+      0.429623090627122
+    ],
+    "content/mem8k/20000": [
+      69.04400000000001,
+      0.2818226392609354
+    ],
+    "content/mem8k_shuf/50": [
+      50.18,
+      3.254338642489438
+    ],
+    "content/mem8k_shuf/100": [
+      47.739999999999995,
+      2.981409062842603
+    ],
+    "content/mem8k_shuf/300": [
+      48.275999999999996,
+      2.65270880422258
+    ],
+    "content/mem8k_shuf/1000": [
+      50.324,
+      1.9064689874215117
+    ],
+    "content/mem8k_shuf/3000": [
+      49.944,
+      1.53056329499959
+    ],
+    "content/mem8k_shuf/10000": [
+      49.54,
+      2.1564786110694434
+    ],
+    "content/mem8k_shuf/20000": [
+      51.220000000000006,
+      1.8641888316369686
+    ],
+    "content/ngram/50": [
+      56.004,
+      2.4505803394298273
+    ],
+    "content/ngram/100": [
+      57.7,
+      2.4542860468983654
+    ],
+    "content/ngram/300": [
+      58.275999999999996,
+      1.8368407660981378
+    ],
+    "content/ngram/1000": [
+      64.26400000000001,
+      0.33523722943611134
+    ],
+    "content/ngram/3000": [
+      66.856,
+      0.5320751826574925
+    ],
+    "content/ngram/10000": [
+      68.768,
+      0.6331634859971017
+    ],
+    "content/ngram/20000": [
+      69.624,
+      0.32234143388649583
+    ],
+    "content/logreg_full/50": [
+      58.267999999999994,
+      2.16948288769467
+    ],
+    "content/logreg_full/100": [
+      58.528,
+      1.3436428096782287
+    ],
+    "content/logreg_full/300": [
+      62.25599999999999,
+      0.9199478246074613
+    ],
+    "content/logreg_full/1000": [
+      65.25999999999999,
+      1.1557162281459967
+    ],
+    "content/logreg_full/3000": [
+      66.932,
+      0.1510496607079976
+    ],
+    "content/logreg_full/10000": [
+      67.21199999999999,
+      0.31485869846647013
+    ],
+    "content/logreg_full/20000": [
+      67.16,
+      0.27070278905101547
+    ],
+    "content/mlp16_full/50": [
+      57.327999999999996,
+      2.3518027128141523
+    ],
+    "content/mlp16_full/100": [
+      59.652,
+      1.7471622706549055
+    ],
+    "content/mlp16_full/300": [
+      63.28000000000001,
+      2.5882194651922408
+    ],
+    "content/mlp16_full/1000": [
+      66.5,
+      0.9715142819331077
+    ],
+    "content/mlp16_full/3000": [
+      67.03200000000001,
+      0.34976563581918935
+    ],
+    "content/mlp16_full/10000": [
+      67.816,
+      0.6864867078101364
+    ],
+    "content/mlp16_full/20000": [
+      69.14,
+      1.0893667885519567
+    ],
+    "content/mlp64_1pass/50": [
+      51.212,
+      3.384141840998988
+    ],
+    "content/mlp64_1pass/100": [
+      50.936,
+      4.2666220831003985
+    ],
+    "content/mlp64_1pass/300": [
+      52.556000000000004,
+      3.6581394177915105
+    ],
+    "content/mlp64_1pass/1000": [
+      59.336,
+      3.850909502961604
+    ],
+    "content/mlp64_1pass/3000": [
+      64.436,
+      1.0344003093580358
+    ],
+    "content/mlp64_1pass/10000": [
+      67.188,
+      0.38441644085548676
+    ],
+    "content/mlp64_1pass/20000": [
+      66.816,
+      0.14772948250095605
+    ],
+    "content/mlp64_full/50": [
+      58.236000000000004,
+      1.4294278575709973
+    ],
+    "content/mlp64_full/100": [
+      60.855999999999995,
+      2.2290589942843617
+    ],
+    "content/mlp64_full/300": [
+      63.71600000000001,
+      2.447869277555482
+    ],
+    "content/mlp64_full/1000": [
+      66.476,
+      0.8980334069509871
+    ],
+    "content/mlp64_full/3000": [
+      67.196,
+      0.35086179615341645
+    ],
+    "content/mlp64_full/10000": [
+      67.99600000000001,
+      0.9888498369317718
+    ],
+    "content/mlp64_full/20000": [
+      69.588,
+      0.26248047546436837
+    ],
+    "content/grid_1pass/50": [
+      50.55200000000001,
+      1.815647542889312
+    ],
+    "content/grid_1pass/100": [
+      48.96,
+      1.6746581740761324
+    ],
+    "content/grid_1pass/300": [
+      48.972,
+      1.6680815327795004
+    ],
+    "content/grid_1pass/1000": [
+      56.403999999999996,
+      6.90705610227686
+    ],
+    "content/grid_1pass/3000": [
+      63.484,
+      5.601291279696138
+    ],
+    "content/grid_1pass/10000": [
+      63.94000000000001,
+      6.47476331613751
+    ],
+    "content/grid_1pass/20000": [
+      67.556,
+      0.23745315327449268
+    ],
+    "content/grid_full/50": [
+      54.208000000000006,
+      2.550908857642702
+    ],
+    "content/grid_full/100": [
+      55.592,
+      3.8847517295188907
+    ],
+    "content/grid_full/300": [
+      61.84400000000001,
+      5.001174262110846
+    ],
+    "content/grid_full/1000": [
+      67.02000000000001,
+      0.19473058311420827
+    ],
+    "content/grid_full/3000": [
+      67.376,
+      0.38437481707312665
+    ],
+    "content/grid_full/10000": [
+      68.668,
+      0.49195121709372924
+    ],
+    "content/grid_full/20000": [
+      69.52400000000002,
+      0.3342813186524216
+    ],
+    "tag12/mem2k/50": [
+      26.028,
+      2.2510299864728576
+    ],
+    "tag12/mem2k/100": [
+      27.955999999999996,
+      1.5914471401840513
+    ],
+    "tag12/mem2k/300": [
+      31.639999999999997,
+      1.0326664514740473
+    ],
+    "tag12/mem2k/1000": [
+      34.376,
+      0.5868423979229849
+    ],
+    "tag12/mem2k/3000": [
+      35.776,
+      0.9378613970091729
+    ],
+    "tag12/mem2k/10000": [
+      35.488,
+      0.2770126350908929
+    ],
+    "tag12/mem2k/20000": [
+      35.908,
+      0.4598434516223956
+    ],
+    "tag12/mem8k/50": [
+      23.663999999999998,
+      2.275166807071517
+    ],
+    "tag12/mem8k/100": [
+      26.592000000000002,
+      1.1401473588970858
+    ],
+    "tag12/mem8k/300": [
+      29.983999999999998,
+      1.384970757814043
+    ],
+    "tag12/mem8k/1000": [
+      34.57199999999999,
+      1.0228274536792612
+    ],
+    "tag12/mem8k/3000": [
+      37.6,
+      0.8236504112789595
+    ],
+    "tag12/mem8k/10000": [
+      38.856,
+      0.7103126072371236
+    ],
+    "tag12/mem8k/20000": [
+      39.22,
+      0.8838099343184574
+    ],
+    "tag12/mem8k_shuf/50": [
+      14.624,
+      2.9035812370243748
+    ],
+    "tag12/mem8k_shuf/100": [
+      15.164000000000001,
+      0.7139075570408251
+    ],
+    "tag12/mem8k_shuf/300": [
+      16.163999999999998,
+      2.222877414523797
+    ],
+    "tag12/mem8k_shuf/1000": [
+      18.688,
+      1.6274446227137804
+    ],
+    "tag12/mem8k_shuf/3000": [
+      22.256,
+      0.7313986601026828
+    ],
+    "tag12/mem8k_shuf/10000": [
+      23.6,
+      0.6235382907247965
+    ],
+    "tag12/mem8k_shuf/20000": [
+      23.728,
+      0.3556627616155496
+    ],
+    "tag12/ngram/50": [
+      24.924,
+      0.5913239382944006
+    ],
+    "tag12/ngram/100": [
+      25.292,
+      0.9691728432018727
+    ],
+    "tag12/ngram/300": [
+      27.667999999999996,
+      0.802755255354955
+    ],
+    "tag12/ngram/1000": [
+      31.912,
+      1.2548529794362342
+    ],
+    "tag12/ngram/3000": [
+      35.04,
+      0.7066540879383632
+    ],
+    "tag12/ngram/10000": [
+      38.212,
+      0.6419470383139096
+    ],
+    "tag12/ngram/20000": [
+      39.568000000000005,
+      0.9887851131565448
+    ],
+    "tag12/logreg_full/50": [
+      25.936,
+      1.5254323977154818
+    ],
+    "tag12/logreg_full/100": [
+      27.332,
+      0.9835934119340163
+    ],
+    "tag12/logreg_full/300": [
+      31.324,
+      1.5917487238882904
+    ],
+    "tag12/logreg_full/1000": [
+      34.416,
+      2.3508092223742856
+    ],
+    "tag12/logreg_full/3000": [
+      37.635999999999996,
+      0.6007195685176243
+    ],
+    "tag12/logreg_full/10000": [
+      38.312,
+      0.30714166112724006
+    ],
+    "tag12/logreg_full/20000": [
+      38.547999999999995,
+      0.2600307674103203
+    ],
+    "tag12/mlp16_full/50": [
+      26.668,
+      1.8584983185356931
+    ],
+    "tag12/mlp16_full/100": [
+      28.688,
+      1.1858903827926084
+    ],
+    "tag12/mlp16_full/300": [
+      33.712,
+      1.0946853429182273
+    ],
+    "tag12/mlp16_full/1000": [
+      36.784000000000006,
+      0.9055738512125887
+    ],
+    "tag12/mlp16_full/3000": [
+      38.156,
+      0.6722380530734626
+    ],
+    "tag12/mlp16_full/10000": [
+      39.088,
+      0.7122471481164364
+    ],
+    "tag12/mlp16_full/20000": [
+      39.34,
+      0.6871389961281481
+    ],
+    "tag12/mlp64_1pass/50": [
+      8.520000000000001,
+      1.1947217249217497
+    ],
+    "tag12/mlp64_1pass/100": [
+      9.036,
+      1.2670217046286147
+    ],
+    "tag12/mlp64_1pass/300": [
+      12.796,
+      2.378718982982227
+    ],
+    "tag12/mlp64_1pass/1000": [
+      25.004,
+      1.5380195057280663
+    ],
+    "tag12/mlp64_1pass/3000": [
+      31.824,
+      1.3815006333693811
+    ],
+    "tag12/mlp64_1pass/10000": [
+      37.64,
+      0.4759831929805928
+    ],
+    "tag12/mlp64_1pass/20000": [
+      38.208,
+      0.3348074073254646
+    ],
+    "tag12/mlp64_full/50": [
+      27.68,
+      1.385756111298089
+    ],
+    "tag12/mlp64_full/100": [
+      30.131999999999998,
+      0.5968718455414032
+    ],
+    "tag12/mlp64_full/300": [
+      33.46399999999999,
+      1.0864547850693111
+    ],
+    "tag12/mlp64_full/1000": [
+      36.69199999999999,
+      1.2060248753653486
+    ],
+    "tag12/mlp64_full/3000": [
+      37.943999999999996,
+      0.509493866498902
+    ],
+    "tag12/mlp64_full/10000": [
+      38.828,
+      0.14005713120009416
+    ],
+    "tag12/mlp64_full/20000": [
+      40.144,
+      0.7471974304024337
+    ],
+    "tag12/grid_1pass/50": [
+      21.5,
+      4.740919741991
+    ],
+    "tag12/grid_1pass/100": [
+      10.212,
+      2.966549510795328
+    ],
+    "tag12/grid_1pass/300": [
+      21.340000000000003,
+      4.434681499273651
+    ],
+    "tag12/grid_1pass/1000": [
+      22.528000000000002,
+      3.1116452239932495
+    ],
+    "tag12/grid_1pass/3000": [
+      25.468,
+      1.4228759608623633
+    ],
+    "tag12/grid_1pass/10000": [
+      32.815999999999995,
+      1.6774933680941928
+    ],
+    "tag12/grid_1pass/20000": [
+      34.852,
+      0.7134816045281059
+    ],
+    "tag12/grid_full/50": [
+      23.944000000000006,
+      0.34857423886454947
+    ],
+    "tag12/grid_full/100": [
+      22.888000000000005,
+      2.2675660960598267
+    ],
+    "tag12/grid_full/300": [
+      29.052000000000003,
+      4.075381699914744
+    ],
+    "tag12/grid_full/1000": [
+      32.39200000000001,
+      4.2564698988716
+    ],
+    "tag12/grid_full/3000": [
+      35.904,
+      1.013303508333016
+    ],
+    "tag12/grid_full/10000": [
+      37.327999999999996,
+      0.9805794205468514
+    ],
+    "tag12/grid_full/20000": [
+      38.968,
+      0.5964696136434772
+    ]
+  }
+}

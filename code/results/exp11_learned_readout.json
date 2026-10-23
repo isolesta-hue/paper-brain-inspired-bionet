@@ -1,0 +1,806 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "tasks": {
+    "content": [
+      20000,
+      3.0
+    ],
+    "tag12": [
+      20000,
+      1.0
+    ],
+    "wtag": [
+      200000,
+      1.0
+    ]
+  },
+  "best_out_lr": {
+    "content": 3.0,
+    "tag12": 0.3,
+    "wtag": 0.3
+  },
+  "summary": {
+    "content/grid": [
+      69.53600000000002,
+      0.35313453526949073
+    ],
+    "content/grid+R4": [
+      69.05199999999999,
+      0.5713982849116742
+    ],
+    "content/random+R4": [
+      51.943999999999996,
+      0.49126774777100995
+    ],
+    "content/shuf+R4": [
+      51.9,
+      0.47883191205265513
+    ],
+    "tag12/grid": [
+      38.42,
+      0.8860699746633985
+    ],
+    "tag12/grid+R4": [
+      38.544,
+      0.3808201675331793
+    ],
+    "tag12/random+R4": [
+      23.940000000000005,
+      0.3548520818594698
+    ],
+    "tag12/shuf+R4": [
+      23.940000000000005,
+      0.3548520818594698
+    ],
+    "wtag/grid": [
+      44.176,
+      1.1044202098839015
+    ],
+    "wtag/grid+R4": [
+      44.800000000000004,
+      0.7056344662783968
+    ],
+    "wtag/random+R4": [
+      23.940000000000005,
+      0.3548520818594698
+    ],
+    "wtag/shuf+R4": [
+      23.940000000000005,
+      0.3548520818594698
+    ]
+  },
+  "rows": [
+    {
+      "test": 0.6986,
+      "val": 0.6904,
+      "epochs": 13,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 0,
+      "variant": "grid+R4",
+      "out_lr": 0.3,
+      "sec": 37.4
+    },
+    {
+      "test": 0.6888,
+      "val": 0.6882,
+      "epochs": 10,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 0,
+      "variant": "grid+R4",
+      "out_lr": 1.0,
+      "sec": 32.1
+    },
+    {
+      "test": 0.6906,
+      "val": 0.6914,
+      "epochs": 7,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 0,
+      "variant": "grid+R4",
+      "out_lr": 3.0,
+      "sec": 24.4
+    },
+    {
+      "test": 0.3906,
+      "val": 0.3918,
+      "epochs": 7,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 0,
+      "variant": "grid+R4",
+      "out_lr": 0.3,
+      "sec": 25.3
+    },
+    {
+      "test": 0.3626,
+      "val": 0.3664,
+      "epochs": 3,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 0,
+      "variant": "grid+R4",
+      "out_lr": 1.0,
+      "sec": 16.4
+    },
+    {
+      "test": 0.3696,
+      "val": 0.3706,
+      "epochs": 3,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 0,
+      "variant": "grid+R4",
+      "out_lr": 3.0,
+      "sec": 15.6
+    },
+    {
+      "test": 0.4488,
+      "val": 0.4454,
+      "epochs": 5,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 0,
+      "variant": "grid+R4",
+      "out_lr": 3.0,
+      "sec": 198.6
+    },
+    {
+      "test": 0.4526,
+      "val": 0.446,
+      "epochs": 6,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 0,
+      "variant": "grid+R4",
+      "out_lr": 0.3,
+      "sec": 210.3
+    },
+    {
+      "test": 0.4506,
+      "val": 0.4454,
+      "epochs": 6,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 0,
+      "variant": "grid+R4",
+      "out_lr": 1.0,
+      "sec": 210.4
+    },
+    {
+      "test": 0.2424,
+      "val": 0.2298,
+      "epochs": 1,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 0,
+      "variant": "random+R4",
+      "out_lr": 0.3,
+      "sec": 49.0
+    },
+    {
+      "test": 0.2424,
+      "val": 0.2298,
+      "epochs": 1,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 0,
+      "variant": "shuf+R4",
+      "out_lr": 0.3,
+      "sec": 108.7
+    },
+    {
+      "test": 0.4214,
+      "val": 0.433,
+      "epochs": 3,
+      "n_params": 52240,
+      "task": "wtag",
+      "seed": 1,
+      "variant": "grid",
+      "out_lr": 0.3,
+      "sec": 109.3
+    },
+    {
+      "test": 0.452,
+      "val": 0.4516,
+      "epochs": 5,
+      "n_params": 52240,
+      "task": "wtag",
+      "seed": 0,
+      "variant": "grid",
+      "out_lr": 0.3,
+      "sec": 144.9
+    },
+    {
+      "test": 0.2366,
+      "val": 0.2308,
+      "epochs": 1,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 1,
+      "variant": "random+R4",
+      "out_lr": 0.3,
+      "sec": 45.5
+    },
+    {
+      "test": 0.2366,
+      "val": 0.2308,
+      "epochs": 1,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 1,
+      "variant": "shuf+R4",
+      "out_lr": 0.3,
+      "sec": 109.0
+    },
+    {
+      "test": 0.2338,
+      "val": 0.2386,
+      "epochs": 1,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 2,
+      "variant": "random+R4",
+      "out_lr": 0.3,
+      "sec": 49.4
+    },
+    {
+      "test": 0.4448,
+      "val": 0.4494,
+      "epochs": 5,
+      "n_params": 52240,
+      "task": "wtag",
+      "seed": 2,
+      "variant": "grid",
+      "out_lr": 0.3,
+      "sec": 143.5
+    },
+    {
+      "test": 0.4348,
+      "val": 0.4454,
+      "epochs": 8,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 1,
+      "variant": "grid+R4",
+      "out_lr": 0.3,
+      "sec": 291.2
+    },
+    {
+      "test": 0.2338,
+      "val": 0.2386,
+      "epochs": 1,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 2,
+      "variant": "shuf+R4",
+      "out_lr": 0.3,
+      "sec": 117.3
+    },
+    {
+      "test": 0.2418,
+      "val": 0.2376,
+      "epochs": 2,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 3,
+      "variant": "random+R4",
+      "out_lr": 0.3,
+      "sec": 61.3
+    },
+    {
+      "test": 0.44,
+      "val": 0.4594,
+      "epochs": 6,
+      "n_params": 52240,
+      "task": "wtag",
+      "seed": 3,
+      "variant": "grid",
+      "out_lr": 0.3,
+      "sec": 168.4
+    },
+    {
+      "test": 0.451,
+      "val": 0.4526,
+      "epochs": 11,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 2,
+      "variant": "grid+R4",
+      "out_lr": 0.3,
+      "sec": 372.0
+    },
+    {
+      "test": 0.2418,
+      "val": 0.2376,
+      "epochs": 1,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 3,
+      "variant": "shuf+R4",
+      "out_lr": 0.3,
+      "sec": 107.4
+    },
+    {
+      "test": 0.4506,
+      "val": 0.4402,
+      "epochs": 3,
+      "n_params": 52240,
+      "task": "wtag",
+      "seed": 4,
+      "variant": "grid",
+      "out_lr": 0.3,
+      "sec": 113.5
+    },
+    {
+      "test": 0.2424,
+      "val": 0.245,
+      "epochs": 1,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 4,
+      "variant": "random+R4",
+      "out_lr": 0.3,
+      "sec": 48.9
+    },
+    {
+      "test": 0.6924,
+      "val": 0.6908,
+      "epochs": 8,
+      "n_params": 3720,
+      "task": "content",
+      "seed": 0,
+      "variant": "grid",
+      "out_lr": 3.0,
+      "sec": 21.8
+    },
+    {
+      "test": 0.447,
+      "val": 0.4638,
+      "epochs": 8,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 3,
+      "variant": "grid+R4",
+      "out_lr": 0.3,
+      "sec": 291.7
+    },
+    {
+      "test": 0.5218,
+      "val": 0.515,
+      "epochs": 4,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 0,
+      "variant": "random+R4",
+      "out_lr": 3.0,
+      "sec": 12.0
+    },
+    {
+      "test": 0.5218,
+      "val": 0.515,
+      "epochs": 1,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 0,
+      "variant": "shuf+R4",
+      "out_lr": 3.0,
+      "sec": 12.0
+    },
+    {
+      "test": 0.688,
+      "val": 0.6928,
+      "epochs": 2,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 1,
+      "variant": "grid+R4",
+      "out_lr": 3.0,
+      "sec": 14.4
+    },
+    {
+      "test": 0.6974,
+      "val": 0.7026,
+      "epochs": 11,
+      "n_params": 3720,
+      "task": "content",
+      "seed": 1,
+      "variant": "grid",
+      "out_lr": 3.0,
+      "sec": 27.3
+    },
+    {
+      "test": 0.5102,
+      "val": 0.509,
+      "epochs": 1,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 1,
+      "variant": "random+R4",
+      "out_lr": 3.0,
+      "sec": 8.6
+    },
+    {
+      "test": 0.5102,
+      "val": 0.509,
+      "epochs": 2,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 1,
+      "variant": "shuf+R4",
+      "out_lr": 3.0,
+      "sec": 13.7
+    },
+    {
+      "test": 0.2424,
+      "val": 0.245,
+      "epochs": 1,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 4,
+      "variant": "shuf+R4",
+      "out_lr": 0.3,
+      "sec": 112.2
+    },
+    {
+      "test": 0.6912,
+      "val": 0.6904,
+      "epochs": 6,
+      "n_params": 3720,
+      "task": "content",
+      "seed": 2,
+      "variant": "grid",
+      "out_lr": 3.0,
+      "sec": 17.5
+    },
+    {
+      "test": 0.5212,
+      "val": 0.522,
+      "epochs": 5,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 2,
+      "variant": "random+R4",
+      "out_lr": 3.0,
+      "sec": 11.7
+    },
+    {
+      "test": 0.5192,
+      "val": 0.5146,
+      "epochs": 2,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 2,
+      "variant": "shuf+R4",
+      "out_lr": 3.0,
+      "sec": 10.6
+    },
+    {
+      "test": 0.6912,
+      "val": 0.69,
+      "epochs": 7,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 2,
+      "variant": "grid+R4",
+      "out_lr": 3.0,
+      "sec": 19.8
+    },
+    {
+      "test": 0.5194,
+      "val": 0.5228,
+      "epochs": 1,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 3,
+      "variant": "random+R4",
+      "out_lr": 3.0,
+      "sec": 3.7
+    },
+    {
+      "test": 0.701,
+      "val": 0.7036,
+      "epochs": 8,
+      "n_params": 3720,
+      "task": "content",
+      "seed": 3,
+      "variant": "grid",
+      "out_lr": 3.0,
+      "sec": 9.9
+    },
+    {
+      "test": 0.5194,
+      "val": 0.5228,
+      "epochs": 2,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 3,
+      "variant": "shuf+R4",
+      "out_lr": 3.0,
+      "sec": 6.4
+    },
+    {
+      "test": 0.7002,
+      "val": 0.7002,
+      "epochs": 12,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 3,
+      "variant": "grid+R4",
+      "out_lr": 3.0,
+      "sec": 17.3
+    },
+    {
+      "test": 0.6948,
+      "val": 0.6856,
+      "epochs": 8,
+      "n_params": 3720,
+      "task": "content",
+      "seed": 4,
+      "variant": "grid",
+      "out_lr": 3.0,
+      "sec": 10.2
+    },
+    {
+      "test": 0.6826,
+      "val": 0.6808,
+      "epochs": 5,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 4,
+      "variant": "grid+R4",
+      "out_lr": 3.0,
+      "sec": 9.8
+    },
+    {
+      "test": 0.5246,
+      "val": 0.5148,
+      "epochs": 5,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 4,
+      "variant": "random+R4",
+      "out_lr": 3.0,
+      "sec": 6.2
+    },
+    {
+      "test": 0.5244,
+      "val": 0.5146,
+      "epochs": 1,
+      "n_params": 3802,
+      "task": "content",
+      "seed": 4,
+      "variant": "shuf+R4",
+      "out_lr": 3.0,
+      "sec": 5.4
+    },
+    {
+      "test": 0.2424,
+      "val": 0.2298,
+      "epochs": 2,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 0,
+      "variant": "random+R4",
+      "out_lr": 0.3,
+      "sec": 4.3
+    },
+    {
+      "test": 0.2424,
+      "val": 0.2298,
+      "epochs": 1,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 0,
+      "variant": "shuf+R4",
+      "out_lr": 0.3,
+      "sec": 5.8
+    },
+    {
+      "test": 0.3894,
+      "val": 0.3924,
+      "epochs": 9,
+      "n_params": 3720,
+      "task": "tag12",
+      "seed": 0,
+      "variant": "grid",
+      "out_lr": 0.3,
+      "sec": 11.3
+    },
+    {
+      "test": 0.3756,
+      "val": 0.3798,
+      "epochs": 4,
+      "n_params": 3720,
+      "task": "tag12",
+      "seed": 1,
+      "variant": "grid",
+      "out_lr": 0.3,
+      "sec": 7.2
+    },
+    {
+      "test": 0.2366,
+      "val": 0.2308,
+      "epochs": 1,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 1,
+      "variant": "random+R4",
+      "out_lr": 0.3,
+      "sec": 3.7
+    },
+    {
+      "test": 0.2366,
+      "val": 0.2308,
+      "epochs": 1,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 1,
+      "variant": "shuf+R4",
+      "out_lr": 0.3,
+      "sec": 5.6
+    },
+    {
+      "test": 0.3834,
+      "val": 0.394,
+      "epochs": 11,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 1,
+      "variant": "grid+R4",
+      "out_lr": 0.3,
+      "sec": 16.5
+    },
+    {
+      "test": 0.3814,
+      "val": 0.386,
+      "epochs": 12,
+      "n_params": 3720,
+      "task": "tag12",
+      "seed": 2,
+      "variant": "grid",
+      "out_lr": 0.3,
+      "sec": 13.3
+    },
+    {
+      "test": 0.3862,
+      "val": 0.3884,
+      "epochs": 6,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 2,
+      "variant": "grid+R4",
+      "out_lr": 0.3,
+      "sec": 11.0
+    },
+    {
+      "test": 0.2338,
+      "val": 0.2386,
+      "epochs": 3,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 2,
+      "variant": "random+R4",
+      "out_lr": 0.3,
+      "sec": 5.0
+    },
+    {
+      "test": 0.2338,
+      "val": 0.2386,
+      "epochs": 1,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 2,
+      "variant": "shuf+R4",
+      "out_lr": 0.3,
+      "sec": 5.4
+    },
+    {
+      "test": 0.4546,
+      "val": 0.4434,
+      "epochs": 8,
+      "n_params": 52732,
+      "task": "wtag",
+      "seed": 4,
+      "variant": "grid+R4",
+      "out_lr": 0.3,
+      "sec": 224.7
+    },
+    {
+      "test": 0.2418,
+      "val": 0.2376,
+      "epochs": 3,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 3,
+      "variant": "random+R4",
+      "out_lr": 0.3,
+      "sec": 5.2
+    },
+    {
+      "test": 0.3794,
+      "val": 0.3828,
+      "epochs": 4,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 3,
+      "variant": "grid+R4",
+      "out_lr": 0.3,
+      "sec": 8.9
+    },
+    {
+      "test": 0.2418,
+      "val": 0.2376,
+      "epochs": 1,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 3,
+      "variant": "shuf+R4",
+      "out_lr": 0.3,
+      "sec": 6.1
+    },
+    {
+      "test": 0.3988,
+      "val": 0.404,
+      "epochs": 12,
+      "n_params": 3720,
+      "task": "tag12",
+      "seed": 3,
+      "variant": "grid",
+      "out_lr": 0.3,
+      "sec": 14.2
+    },
+    {
+      "test": 0.2424,
+      "val": 0.245,
+      "epochs": 2,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 4,
+      "variant": "random+R4",
+      "out_lr": 0.3,
+      "sec": 4.4
+    },
+    {
+      "test": 0.3758,
+      "val": 0.372,
+      "epochs": 5,
+      "n_params": 3720,
+      "task": "tag12",
+      "seed": 4,
+      "variant": "grid",
+      "out_lr": 0.3,
+      "sec": 7.8
+    },
+    {
+      "test": 0.3876,
+      "val": 0.3714,
+      "epochs": 5,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 4,
+      "variant": "grid+R4",
+      "out_lr": 0.3,
+      "sec": 9.6
+    },
+    {
+      "test": 0.2424,
+      "val": 0.245,
+      "epochs": 1,
+      "n_params": 4212,
+      "task": "tag12",
+      "seed": 4,
+      "variant": "shuf+R4",
+      "out_lr": 0.3,
+      "sec": 5.7
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "config": {
+    "tasks": [
+      "content",
+      "tag12"
+    ],
+    "context": 3,
+    "n_train": 20000,
+    "n_val": 5000,
+    "n_test": 5000,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "mlp_hidden": [
+      16,
+      64
+    ]
+  },
+  "rows": [
+    {
+      "task": "content",
+      "seed": 0,
+      "majority": 0.5218,
+      "ngram_table": 0.693,
+      "logreg": 0.6682,
+      "mlp16": 0.6702,
+      "mlp16_params": 674,
+      "mlp16_sec": 0.24,
+      "mlp64": 0.6924,
+      "mlp64_params": 2690,
+      "mlp64_sec": 1.15,
+      "mlp64_shuffled": 0.5384
+    },
+    {
+      "task": "content",
+      "seed": 1,
+      "majority": 0.5102,
+      "ngram_table": 0.697,
+      "logreg": 0.675,
+      "mlp16": 0.6926,
+      "mlp16_params": 674,
+      "mlp16_sec": 0.66,
+      "mlp64": 0.6966,
+      "mlp64_params": 2690,
+      "mlp64_sec": 1.08,
+      "mlp64_shuffled": 0.522
+    },
+    {
+      "task": "content",
+      "seed": 2,
+      "majority": 0.5192,
+      "ngram_table": 0.692,
+      "logreg": 0.6742,
+      "mlp16": 0.6956,
+      "mlp16_params": 674,
+      "mlp16_sec": 1.01,
+      "mlp64": 0.6938,
+      "mlp64_params": 2690,
+      "mlp64_sec": 1.28,
+      "mlp64_shuffled": 0.5242
+    },
+    {
+      "task": "content",
+      "seed": 3,
+      "majority": 0.5194,
+      "ngram_table": 0.6992,
+      "logreg": 0.6716,
+      "mlp16": 0.6994,
+      "mlp16_params": 674,
+      "mlp16_sec": 0.58,
+      "mlp64": 0.6966,
+      "mlp64_params": 2690,
+      "mlp64_sec": 0.97,
+      "mlp64_shuffled": 0.4766
+    },
+    {
+      "task": "content",
+      "seed": 4,
+      "majority": 0.5244,
+      "ngram_table": 0.7,
+      "logreg": 0.669,
+      "mlp16": 0.6992,
+      "mlp16_params": 674,
+      "mlp16_sec": 0.56,
+      "mlp64": 0.7,
+      "mlp64_params": 2690,
+      "mlp64_sec": 1.8,
+      "mlp64_shuffled": 0.5254
+    },
+    {
+      "task": "tag12",
+      "seed": 0,
+      "majority": 0.2424,
+      "ngram_table": 0.4064,
+      "logreg": 0.3866,
+      "mlp16": 0.3972,
+      "mlp16_params": 844,
+      "mlp16_sec": 0.25,
+      "mlp64": 0.4,
+      "mlp64_params": 3340,
+      "mlp64_sec": 1.43,
+      "mlp64_shuffled": 0.2434
+    },
+    {
+      "task": "tag12",
+      "seed": 1,
+      "majority": 0.2366,
+      "ngram_table": 0.3848,
+      "logreg": 0.3842,
+      "mlp16": 0.3814,
+      "mlp16_params": 844,
+      "mlp16_sec": 0.32,
+      "mlp64": 0.3928,
+      "mlp64_params": 3340,
+      "mlp64_sec": 0.98,
+      "mlp64_shuffled": 0.2366
+    },
+    {
+      "task": "tag12",
+      "seed": 2,
+      "majority": 0.2338,
+      "ngram_table": 0.3912,
+      "logreg": 0.384,
+      "mlp16": 0.3932,
+      "mlp16_params": 844,
+      "mlp16_sec": 0.69,
+      "mlp64": 0.4022,
+      "mlp64_params": 3340,
+      "mlp64_sec": 1.13,
+      "mlp64_shuffled": 0.2338
+    },
+    {
+      "task": "tag12",
+      "seed": 3,
+      "majority": 0.2418,
+      "ngram_table": 0.3874,
+      "logreg": 0.3826,
+      "mlp16": 0.393,
+      "mlp16_params": 844,
+      "mlp16_sec": 0.99,
+      "mlp64": 0.3972,
+      "mlp64_params": 3340,
+      "mlp64_sec": 0.86,
+      "mlp64_shuffled": 0.2418
+    },
+    {
+      "task": "tag12",
+      "seed": 4,
+      "majority": 0.2424,
+      "ngram_table": 0.4086,
+      "logreg": 0.39,
+      "mlp16": 0.4022,
+      "mlp16_params": 844,
+      "mlp16_sec": 0.42,
+      "mlp64": 0.415,
+      "mlp64_params": 3340,
+      "mlp64_sec": 1.92,
+      "mlp64_shuffled": 0.2422
+    }
+  ],
+  "summary": {
+    "content": {
+      "majority": [
+        0.519,
+        0.0047883191205265385
+      ],
+      "ngram_table": [
+        0.6962400000000001,
+        0.003223414338864944
+      ],
+      "logreg": [
+        0.6716,
+        0.0027070278905101846
+      ],
+      "mlp16": [
+        0.6914,
+        0.010893667885519553
+      ],
+      "mlp64": [
+        0.69588,
+        0.002624804754643653
+      ],
+      "mlp64_shuffled": [
+        0.51732,
+        0.021151869893699694
+      ],
+      "mlp16_params": 674,
+      "mlp64_params": 2690
+    },
+    "tag12": {
+      "majority": [
+        0.2394,
+        0.0035485208185946963
+      ],
+      "ngram_table": [
+        0.39568,
+        0.009887851131565446
+      ],
+      "logreg": [
+        0.38548,
+        0.0026003076741032073
+      ],
+      "mlp16": [
+        0.3934,
+        0.006871389961281481
+      ],
+      "mlp64": [
+        0.4014399999999999,
+        0.0074719743040243345
+      ],
+      "mlp64_shuffled": [
+        0.23956,
+        0.0037059951430081467
+      ],
+      "mlp16_params": 844,
+      "mlp64_params": 3340
+    }
+  }
+}
